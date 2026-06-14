@@ -237,17 +237,22 @@ router.post(
           if (updated.count === 0) throw new OutOfStockError(variantId);
         }
 
-        const addr = await tx.address.create({
-          data: {
-            userId,
-            fullName: `${address.first} ${address.last}`.trim(),
-            phone: String(address.phone),
-            street: String(address.address),
-            city: String(address.city),
-            state: String(address.state),
-            pincode: String(address.pin),
-          },
-        });
+        // Reuse the buyer's existing saved address when the checkout details
+        // match one exactly, instead of inserting a fresh row every order.
+        // Without this, each checkout left a duplicate entry that piled up in
+        // the profile address book.
+        const addrData = {
+          userId,
+          fullName: `${address.first} ${address.last}`.trim(),
+          phone: String(address.phone),
+          street: String(address.address),
+          city: String(address.city),
+          state: String(address.state),
+          pincode: String(address.pin),
+        };
+        const addr =
+          (await tx.address.findFirst({ where: addrData })) ??
+          (await tx.address.create({ data: addrData }));
 
         const created = await tx.order.create({
             data: {
@@ -384,6 +389,25 @@ router.post(
 
 const RETURN_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
 
+/** Derive the customer-facing refund state from the payment rows — no extra
+    schema column needed. A refund is only ever owed once an order is
+    CANCELLED/RETURNED and money was actually captured:
+      • a still-captured payment (SUCCESS) ⇒ refund PENDING (owed, not yet paid)
+      • a REFUNDED payment                  ⇒ refund COMPLETED
+      • COD / never-captured                ⇒ null (nothing to refund)
+    The admin's "mark refund completed" action flips SUCCESS → REFUNDED, which
+    is exactly what moves this from PENDING to COMPLETED for the customer. */
+function refundInfo(o: any) {
+  if (o.status !== "CANCELLED" && o.status !== "RETURNED") return null;
+  const payments = o.payments ?? [];
+  const method = payments[0]?.method ?? null;
+  if (payments.some((p: any) => p.status === "REFUNDED"))
+    return { status: "COMPLETED", amount: toNumber(o.finalAmount), method };
+  if (payments.some((p: any) => p.status === "SUCCESS"))
+    return { status: "PENDING", amount: toNumber(o.finalAmount), method };
+  return null;
+}
+
 /* Shape an order row for the read endpoints. */
 function serializeOrder(o: any) {
   const returnEligibleUntil =
@@ -397,6 +421,7 @@ function serializeOrder(o: any) {
     status: o.status,
     placedAt: o.placedAt,
     returnEligibleUntil,
+    refund: refundInfo(o),
     subtotal: toNumber(o.totalAmount),
     discount: toNumber(o.discount),
     shippingFee: toNumber(o.shippingFee),
@@ -905,7 +930,7 @@ router.post(
       return;
     }
 
-    const refunded = await notifyTx(async (tx) => {
+    const refunded: number = await notifyTx(async (tx) => {
       const flipped = await tx.payment.updateMany({
         where: { orderId: id, status: "SUCCESS" },
         data: { status: "REFUNDED" },
@@ -936,9 +961,17 @@ router.post(
       return flipped.count;
     });
 
+    const updated = await prisma.order.findUnique({
+      where: { id },
+      include: adminOrderInclude,
+    });
     res.json({
       refunded,
-      message: refunded > 0 ? "Refund processed." : "No captured payment left to refund.",
+      message:
+        refunded > 0
+          ? "Refund marked completed — the customer now sees it as refunded."
+          : "No captured payment left to refund.",
+      order: updated ? serializeAdminOrder(updated) : null,
     });
   })
 );
@@ -1045,19 +1078,19 @@ router.patch(
           data: { stockQty: { increment: it.quantity } },
         });
       }
-      // Mark any captured payment as refunded (mock gateway — no real money moves).
-      const refunded = await tx.payment.updateMany({
-        where: { orderId: id, status: "SUCCESS" },
-        data: { status: "REFUNDED" },
-      });
 
       const customerName = order.user?.name ?? order.address?.fullName ?? "Customer";
       const total = toNumber(order.finalAmount);
       const payment = order.payments[0] ?? null;
-      const paymentStatus = refunded.count > 0 ? "REFUNDED" : payment?.status ?? null;
-      // Mock gateway: a captured payment is refunded in the same breath as the
-      // cancel; anything else (COD pending) has no money to return.
-      const refundStatus = refunded.count > 0 ? "REFUNDED" : "NOT_REQUIRED";
+      const paymentStatus = payment?.status ?? null;
+      // A captured (paid) payment leaves a refund owed to the customer. We do
+      // NOT auto-refund here: the refund stays PENDING and the customer is shown
+      // a reassurance that their money is on its way. An admin completes it from
+      // the order page (POST /admin/:id/refund), which flips the payment to
+      // REFUNDED and moves the customer's status to COMPLETED. COD / unpaid
+      // orders have no money to return.
+      const refundOwed = paymentStatus === "SUCCESS";
+      const refundStatus = refundOwed ? "PENDING" : "NOT_REQUIRED";
 
       await emitEvent(
         tx,
@@ -1068,7 +1101,9 @@ router.patch(
           title: `Order ${orderNo(id)} cancelled by customer`,
           body: `${customerName} cancelled order ${orderNo(id)} (${inr(total)}) while ${order.status}${
             reason ? ` — "${reason}"` : ""
-          }. Payment: ${paymentStatus ?? "none"}. Refund: ${refundStatus}. Stock restored.`,
+          }. Payment: ${paymentStatus ?? "none"}. Refund: ${refundStatus}${
+            refundOwed ? " — awaiting admin to process" : ""
+          }. Stock restored.`,
           orderId: id,
           meta: {
             orderNo: orderNo(id),
@@ -1093,7 +1128,7 @@ router.patch(
           meta: {
             previousStatus: order.status,
             reason,
-            paymentRefunded: refunded.count > 0,
+            refundOwed,
           },
           req,
         }
@@ -1119,7 +1154,10 @@ router.patch(
       res.status(400).json({ error: "Invalid order id" });
       return;
     }
-    const order = await prisma.order.findUnique({ where: { id }, include: { items: true } });
+    const order = await prisma.order.findUnique({
+      where: { id },
+      include: { items: true, payments: { orderBy: { id: "asc" } } },
+    });
     if (!order || order.userId !== Number(req.currentUser!.id)) {
       res.status(404).json({ error: "Order not found" });
       return;
@@ -1149,14 +1187,13 @@ router.patch(
           data: { stockQty: { increment: it.quantity } },
         });
       }
-      const refunded = await tx.payment.updateMany({
-        where: { orderId: id, status: "SUCCESS" },
-        data: { status: "REFUNDED" },
-      });
+      // No auto-refund: a captured payment leaves a refund PENDING (owed to the
+      // customer) until an admin completes it from the order page. COD / unpaid
+      // returns have no money to send back.
+      const refundOwed = order.payments.some((p) => p.status === "SUCCESS");
 
-      // RETURNED rides the ORDER_STATUS_CHANGE type (the dedicated refund
-      // types stay dormant until a real refund flow exists) but at HIGH
-      // priority — money is going back.
+      // RETURNED rides the ORDER_STATUS_CHANGE type but at HIGH priority —
+      // money is going back.
       await emitEvent(
         tx,
         {
@@ -1165,13 +1202,14 @@ router.patch(
           title: `Return requested for order ${orderNo(id)}`,
           body: `Order ${orderNo(id)} (${inr(toNumber(order.finalAmount))}) was returned${
             reason ? ` — "${reason}"` : ""
-          }. Stock restored${refunded.count > 0 ? "; mock payment marked refunded" : ""}.`,
+          }. Stock restored${refundOwed ? "; refund pending — awaiting admin to process" : ""}.`,
           orderId: id,
           meta: {
             from: "DELIVERED",
             to: "RETURNED",
             reason,
-            paymentRefunded: refunded.count > 0,
+            refundOwed,
+            refundStatus: refundOwed ? "PENDING" : "NOT_REQUIRED",
           },
         },
         {
@@ -1180,7 +1218,7 @@ router.patch(
           actorId: order.userId,
           entityType: "order",
           entityId: id,
-          meta: { reason, paymentRefunded: refunded.count > 0 },
+          meta: { reason, refundOwed },
           req,
         }
       );
