@@ -1,0 +1,2148 @@
+{
+  "takenAt": "2026-06-14T12:23:04.717Z",
+  "products": [
+    {
+      "id": 34,
+      "categoryId": 16,
+      "name": "Gulabi Bandhej Odhni",
+      "slug": "gulabi-bandhej-odhni",
+      "type": "Bandhej · Pure Georgette",
+      "description": "Gulabi Bandhej Odhni — a handcrafted jaipuri odhni from our Jaipur atelier, featuring bandhej work on pure georgette. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "3450",
+      "comparePrice": null,
+      "badge": "New",
+      "rating": 4.3,
+      "reviewCount": 156,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:18:44.190Z"
+    },
+    {
+      "id": 35,
+      "categoryId": 16,
+      "name": "Leheriya Wave Odhni",
+      "slug": "leheriya-wave-odhni",
+      "type": "Leheriya · Chiffon",
+      "description": "Leheriya Wave Odhni — a handcrafted jaipuri odhni from our Jaipur atelier, featuring leheriya work on chiffon. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "2890",
+      "comparePrice": "3600",
+      "badge": null,
+      "rating": 4.899999999999999,
+      "reviewCount": 26,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:18:55.360Z"
+    },
+    {
+      "id": 36,
+      "categoryId": 16,
+      "name": "Gota Patti Rani Odhni",
+      "slug": "gota-patti-rani-odhni",
+      "type": "Gota Patti · Silk Blend",
+      "description": "Gota Patti Rani Odhni — a handcrafted jaipuri odhni from our Jaipur atelier, featuring gota patti work on silk blend. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "4750",
+      "comparePrice": null,
+      "badge": "Signature",
+      "rating": 4.7,
+      "reviewCount": 63,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:19:06.492Z"
+    },
+    {
+      "id": 37,
+      "categoryId": 16,
+      "name": "Sanganeri Block Odhni",
+      "slug": "sanganeri-block-odhni",
+      "type": "Hand-Block · Cotton Mul",
+      "description": "Sanganeri Block Odhni — a handcrafted jaipuri odhni from our Jaipur atelier, featuring hand-block work on cotton mul. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "2150",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.399999999999999,
+      "reviewCount": 126,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:19:16.630Z"
+    },
+    {
+      "id": 38,
+      "categoryId": 16,
+      "name": "Mothra Bandhani Odhni",
+      "slug": "mothra-bandhani-odhni",
+      "type": "Bandhej · Modal Silk",
+      "description": "Mothra Bandhani Odhni — a handcrafted jaipuri odhni from our Jaipur atelier, featuring bandhej work on modal silk. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "3990",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.899999999999999,
+      "reviewCount": 132,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:19:27.761Z"
+    },
+    {
+      "id": 39,
+      "categoryId": 16,
+      "name": "Kesariya Leheriya Odhni",
+      "slug": "kesariya-leheriya-odhni",
+      "type": "Leheriya · Pure Silk",
+      "description": "Kesariya Leheriya Odhni — a handcrafted jaipuri odhni from our Jaipur atelier, featuring leheriya work on pure silk. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "5200",
+      "comparePrice": null,
+      "badge": "New",
+      "rating": 4.399999999999999,
+      "reviewCount": 51,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:19:37.463Z"
+    },
+    {
+      "id": 40,
+      "categoryId": 16,
+      "name": "Pila Chunari Odhni",
+      "slug": "pila-chunari-odhni",
+      "type": "Bandhej · Cotton",
+      "description": "Pila Chunari Odhni — a handcrafted jaipuri odhni from our Jaipur atelier, featuring bandhej work on cotton. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "1850",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.6,
+      "reviewCount": 143,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:19:48.291Z"
+    },
+    {
+      "id": 41,
+      "categoryId": 17,
+      "name": "Rani Bagh Bridal Lehenga",
+      "slug": "rani-bagh-bridal-lehenga",
+      "type": "Zardozi · Raw Silk",
+      "description": "Rani Bagh Bridal Lehenga — a handcrafted lehenga from our Jaipur atelier, featuring zardozi work on raw silk. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "68500",
+      "comparePrice": "82000",
+      "badge": null,
+      "rating": 4.5,
+      "reviewCount": 39,
+      "isBestseller": true,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:19:57.982Z"
+    },
+    {
+      "id": 42,
+      "categoryId": 17,
+      "name": "Mirror Mahal Lehenga",
+      "slug": "mirror-mahal-lehenga",
+      "type": "Sheesha · Georgette",
+      "description": "Mirror Mahal Lehenga — a handcrafted lehenga from our Jaipur atelier, featuring sheesha work on georgette. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "16750",
+      "comparePrice": null,
+      "badge": "Trending",
+      "rating": 4.8,
+      "reviewCount": 89,
+      "isBestseller": true,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:20:08.492Z"
+    },
+    {
+      "id": 43,
+      "categoryId": 17,
+      "name": "Amrai Gota Lehenga",
+      "slug": "amrai-gota-lehenga",
+      "type": "Gota Patti · Silk",
+      "description": "Amrai Gota Lehenga — a handcrafted lehenga from our Jaipur atelier, featuring gota patti work on silk. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "24500",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.399999999999999,
+      "reviewCount": 77,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:20:18.313Z"
+    },
+    {
+      "id": 44,
+      "categoryId": 17,
+      "name": "Sheesh Mahal Lehenga",
+      "slug": "sheesh-mahal-lehenga",
+      "type": "Mirror & Zari · Velvet",
+      "description": "Sheesh Mahal Lehenga — a handcrafted lehenga from our Jaipur atelier, featuring mirror & zari work on velvet. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "39900",
+      "comparePrice": null,
+      "badge": "Signature",
+      "rating": 4.6,
+      "reviewCount": 60,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:20:29.137Z"
+    },
+    {
+      "id": 45,
+      "categoryId": 17,
+      "name": "Hawa Mahal Chikan Lehenga",
+      "slug": "hawa-mahal-chikan-lehenga",
+      "type": "Chikankari · Cotton Silk",
+      "description": "Hawa Mahal Chikan Lehenga — a handcrafted lehenga from our Jaipur atelier, featuring chikankari work on cotton silk. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "12900",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.6,
+      "reviewCount": 154,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:20:38.555Z"
+    },
+    {
+      "id": 46,
+      "categoryId": 17,
+      "name": "Padmini Zardozi Lehenga",
+      "slug": "padmini-zardozi-lehenga",
+      "type": "Zardozi · Banarasi Silk",
+      "description": "Padmini Zardozi Lehenga — a handcrafted lehenga from our Jaipur atelier, featuring zardozi work on banarasi silk. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "54500",
+      "comparePrice": "62000",
+      "badge": null,
+      "rating": 4.399999999999999,
+      "reviewCount": 109,
+      "isBestseller": true,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:20:49.286Z"
+    },
+    {
+      "id": 47,
+      "categoryId": 17,
+      "name": "Bagheecha Floral Lehenga",
+      "slug": "bagheecha-floral-lehenga",
+      "type": "Resham · Organza",
+      "description": "Bagheecha Floral Lehenga — a handcrafted lehenga from our Jaipur atelier, featuring resham work on organza. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "18900",
+      "comparePrice": null,
+      "badge": "New",
+      "rating": 4.399999999999999,
+      "reviewCount": 47,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:20:59.412Z"
+    },
+    {
+      "id": 48,
+      "categoryId": 18,
+      "name": "Chanderi Gold Tissue Saree",
+      "slug": "chanderi-gold-tissue-saree",
+      "type": "Zari · Chanderi Silk",
+      "description": "Chanderi Gold Tissue Saree — a handcrafted designer saree from our Jaipur atelier, featuring zari work on chanderi silk. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "7600",
+      "comparePrice": "9200",
+      "badge": null,
+      "rating": 4.899999999999999,
+      "reviewCount": 69,
+      "isBestseller": true,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:21:10.687Z"
+    },
+    {
+      "id": 49,
+      "categoryId": 18,
+      "name": "Kota Doria Block Saree",
+      "slug": "kota-doria-block-saree",
+      "type": "Hand-Block · Kota Cotton",
+      "description": "Kota Doria Block Saree — a handcrafted designer saree from our Jaipur atelier, featuring hand-block work on kota cotton. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "4200",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.5,
+      "reviewCount": 112,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:21:20.240Z"
+    },
+    {
+      "id": 50,
+      "categoryId": 18,
+      "name": "Banarasi Rani Silk Saree",
+      "slug": "banarasi-rani-silk-saree",
+      "type": "Zari · Banarasi Silk",
+      "description": "Banarasi Rani Silk Saree — a handcrafted designer saree from our Jaipur atelier, featuring zari work on banarasi silk. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "14500",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.5,
+      "reviewCount": 165,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:21:31.110Z"
+    },
+    {
+      "id": 51,
+      "categoryId": 18,
+      "name": "Leheriya Chiffon Saree",
+      "slug": "leheriya-chiffon-saree",
+      "type": "Leheriya · Chiffon",
+      "description": "Leheriya Chiffon Saree — a handcrafted designer saree from our Jaipur atelier, featuring leheriya work on chiffon. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "5600",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.8,
+      "reviewCount": 130,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:21:40.512Z"
+    },
+    {
+      "id": 52,
+      "categoryId": 18,
+      "name": "Bandhej Georgette Saree",
+      "slug": "bandhej-georgette-saree",
+      "type": "Bandhej · Georgette",
+      "description": "Bandhej Georgette Saree — a handcrafted designer saree from our Jaipur atelier, featuring bandhej work on georgette. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "6800",
+      "comparePrice": null,
+      "badge": "Trending",
+      "rating": 4.3,
+      "reviewCount": 91,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:21:51.594Z"
+    },
+    {
+      "id": 53,
+      "categoryId": 18,
+      "name": "Maheshwari Tissue Saree",
+      "slug": "maheshwari-tissue-saree",
+      "type": "Zari · Maheshwari Silk",
+      "description": "Maheshwari Tissue Saree — a handcrafted designer saree from our Jaipur atelier, featuring zari work on maheshwari silk. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "8900",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.399999999999999,
+      "reviewCount": 113,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:22:01.191Z"
+    },
+    {
+      "id": 54,
+      "categoryId": 18,
+      "name": "Gota Border Organza Saree",
+      "slug": "gota-border-organza-saree",
+      "type": "Gota Patti · Organza",
+      "description": "Gota Border Organza Saree — a handcrafted designer saree from our Jaipur atelier, featuring gota patti work on organza. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "9900",
+      "comparePrice": null,
+      "badge": "New",
+      "rating": 4.399999999999999,
+      "reviewCount": 167,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "Free Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:22:11.638Z"
+    },
+    {
+      "id": 55,
+      "categoryId": 19,
+      "name": "Sanganeri Cotton Suit Set",
+      "slug": "sanganeri-cotton-suit-set",
+      "type": "Hand-Block · Cotton",
+      "description": "Sanganeri Cotton Suit Set — a handcrafted suit sets from our Jaipur atelier, featuring hand-block work on cotton. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "4990",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.7,
+      "reviewCount": 64,
+      "isBestseller": true,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:22:21.246Z"
+    },
+    {
+      "id": 56,
+      "categoryId": 19,
+      "name": "Chikankari Anarkali Suit",
+      "slug": "chikankari-anarkali-suit",
+      "type": "Chikankari · Georgette",
+      "description": "Chikankari Anarkali Suit — a handcrafted suit sets from our Jaipur atelier, featuring chikankari work on georgette. Each piece is finished by hand, so subtle variations are a mark of its artisanal origin. Dry-clean recommended; store folded in the muslin pouch provided.",
+      "basePrice": "8900",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.899999999999999,
+      "reviewCount": 66,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-14T12:22:32.219Z"
+    }
+  ],
+  "productVariants": [
+    {
+      "id": 107,
+      "productId": 34,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "3450",
+      "stockQty": 6,
+      "sku": "gulabi-bandhej-odhni-rani-pink",
+      "createdAt": "2026-06-14T12:18:45.903Z"
+    },
+    {
+      "id": 108,
+      "productId": 34,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "3450",
+      "stockQty": 20,
+      "sku": "gulabi-bandhej-odhni-deep-maroon",
+      "createdAt": "2026-06-14T12:18:47.586Z"
+    },
+    {
+      "id": 109,
+      "productId": 34,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "3450",
+      "stockQty": 18,
+      "sku": "gulabi-bandhej-odhni-emerald",
+      "createdAt": "2026-06-14T12:18:48.695Z"
+    },
+    {
+      "id": 110,
+      "productId": 35,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "2890",
+      "stockQty": 6,
+      "sku": "leheriya-wave-odhni-royal-blue",
+      "createdAt": "2026-06-14T12:18:56.526Z"
+    },
+    {
+      "id": 111,
+      "productId": 35,
+      "color": "Mustard Gold",
+      "colorHex": "#c79a3b",
+      "price": "2890",
+      "stockQty": 45,
+      "sku": "leheriya-wave-odhni-mustard-gold",
+      "createdAt": "2026-06-14T12:18:57.832Z"
+    },
+    {
+      "id": 112,
+      "productId": 35,
+      "color": "Ivory",
+      "colorHex": "#f3ece0",
+      "price": "2890",
+      "stockQty": 11,
+      "sku": "leheriya-wave-odhni-ivory",
+      "createdAt": "2026-06-14T12:18:58.992Z"
+    },
+    {
+      "id": 113,
+      "productId": 35,
+      "color": "Firozi",
+      "colorHex": "#1c8c8c",
+      "price": "2890",
+      "stockQty": 7,
+      "sku": "leheriya-wave-odhni-firozi",
+      "createdAt": "2026-06-14T12:19:00.174Z"
+    },
+    {
+      "id": 114,
+      "productId": 36,
+      "color": "Firozi",
+      "colorHex": "#1c8c8c",
+      "price": "4750",
+      "stockQty": 15,
+      "sku": "gota-patti-rani-odhni-firozi",
+      "createdAt": "2026-06-14T12:19:07.693Z"
+    },
+    {
+      "id": 115,
+      "productId": 36,
+      "color": "Gulabi",
+      "colorHex": "#e58aa8",
+      "price": "4750",
+      "stockQty": 12,
+      "sku": "gota-patti-rani-odhni-gulabi",
+      "createdAt": "2026-06-14T12:19:08.888Z"
+    },
+    {
+      "id": 116,
+      "productId": 36,
+      "color": "Onyx Black",
+      "colorHex": "#1c1c1c",
+      "price": "4750",
+      "stockQty": 14,
+      "sku": "gota-patti-rani-odhni-onyx-black",
+      "createdAt": "2026-06-14T12:19:10.473Z"
+    },
+    {
+      "id": 117,
+      "productId": 37,
+      "color": "Sandstone",
+      "colorHex": "#c9a06a",
+      "price": "2150",
+      "stockQty": 6,
+      "sku": "sanganeri-block-odhni-sandstone",
+      "createdAt": "2026-06-14T12:19:17.837Z"
+    },
+    {
+      "id": 118,
+      "productId": 37,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "2150",
+      "stockQty": 6,
+      "sku": "sanganeri-block-odhni-rani-pink",
+      "createdAt": "2026-06-14T12:19:19.108Z"
+    },
+    {
+      "id": 119,
+      "productId": 37,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "2150",
+      "stockQty": 40,
+      "sku": "sanganeri-block-odhni-deep-maroon",
+      "createdAt": "2026-06-14T12:19:20.249Z"
+    },
+    {
+      "id": 120,
+      "productId": 37,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "2150",
+      "stockQty": 45,
+      "sku": "sanganeri-block-odhni-emerald",
+      "createdAt": "2026-06-14T12:19:21.430Z"
+    },
+    {
+      "id": 121,
+      "productId": 38,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "3990",
+      "stockQty": 17,
+      "sku": "mothra-bandhani-odhni-emerald",
+      "createdAt": "2026-06-14T12:19:29.315Z"
+    },
+    {
+      "id": 122,
+      "productId": 38,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "3990",
+      "stockQty": 32,
+      "sku": "mothra-bandhani-odhni-royal-blue",
+      "createdAt": "2026-06-14T12:19:30.458Z"
+    },
+    {
+      "id": 123,
+      "productId": 38,
+      "color": "Mustard Gold",
+      "colorHex": "#c79a3b",
+      "price": "3990",
+      "stockQty": 11,
+      "sku": "mothra-bandhani-odhni-mustard-gold",
+      "createdAt": "2026-06-14T12:19:31.587Z"
+    },
+    {
+      "id": 124,
+      "productId": 39,
+      "color": "Ivory",
+      "colorHex": "#f3ece0",
+      "price": "5200",
+      "stockQty": 29,
+      "sku": "kesariya-leheriya-odhni-ivory",
+      "createdAt": "2026-06-14T12:19:38.862Z"
+    },
+    {
+      "id": 125,
+      "productId": 39,
+      "color": "Firozi",
+      "colorHex": "#1c8c8c",
+      "price": "5200",
+      "stockQty": 28,
+      "sku": "kesariya-leheriya-odhni-firozi",
+      "createdAt": "2026-06-14T12:19:39.996Z"
+    },
+    {
+      "id": 126,
+      "productId": 39,
+      "color": "Gulabi",
+      "colorHex": "#e58aa8",
+      "price": "5200",
+      "stockQty": 32,
+      "sku": "kesariya-leheriya-odhni-gulabi",
+      "createdAt": "2026-06-14T12:19:41.116Z"
+    },
+    {
+      "id": 127,
+      "productId": 39,
+      "color": "Onyx Black",
+      "colorHex": "#1c1c1c",
+      "price": "5200",
+      "stockQty": 45,
+      "sku": "kesariya-leheriya-odhni-onyx-black",
+      "createdAt": "2026-06-14T12:19:42.245Z"
+    },
+    {
+      "id": 128,
+      "productId": 40,
+      "color": "Onyx Black",
+      "colorHex": "#1c1c1c",
+      "price": "1850",
+      "stockQty": 14,
+      "sku": "pila-chunari-odhni-onyx-black",
+      "createdAt": "2026-06-14T12:19:49.567Z"
+    },
+    {
+      "id": 129,
+      "productId": 40,
+      "color": "Sandstone",
+      "colorHex": "#c9a06a",
+      "price": "1850",
+      "stockQty": 27,
+      "sku": "pila-chunari-odhni-sandstone",
+      "createdAt": "2026-06-14T12:19:50.786Z"
+    },
+    {
+      "id": 130,
+      "productId": 40,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "1850",
+      "stockQty": 37,
+      "sku": "pila-chunari-odhni-rani-pink",
+      "createdAt": "2026-06-14T12:19:51.938Z"
+    },
+    {
+      "id": 131,
+      "productId": 41,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "68500",
+      "stockQty": 24,
+      "sku": "rani-bagh-bridal-lehenga-deep-maroon",
+      "createdAt": "2026-06-14T12:19:59.132Z"
+    },
+    {
+      "id": 132,
+      "productId": 41,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "68500",
+      "stockQty": 36,
+      "sku": "rani-bagh-bridal-lehenga-emerald",
+      "createdAt": "2026-06-14T12:20:00.312Z"
+    },
+    {
+      "id": 133,
+      "productId": 41,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "68500",
+      "stockQty": 24,
+      "sku": "rani-bagh-bridal-lehenga-royal-blue",
+      "createdAt": "2026-06-14T12:20:01.509Z"
+    },
+    {
+      "id": 134,
+      "productId": 41,
+      "color": "Mustard Gold",
+      "colorHex": "#c79a3b",
+      "price": "68500",
+      "stockQty": 13,
+      "sku": "rani-bagh-bridal-lehenga-mustard-gold",
+      "createdAt": "2026-06-14T12:20:02.679Z"
+    },
+    {
+      "id": 135,
+      "productId": 42,
+      "color": "Mustard Gold",
+      "colorHex": "#c79a3b",
+      "price": "16750",
+      "stockQty": 24,
+      "sku": "mirror-mahal-lehenga-mustard-gold",
+      "createdAt": "2026-06-14T12:20:09.933Z"
+    },
+    {
+      "id": 136,
+      "productId": 42,
+      "color": "Ivory",
+      "colorHex": "#f3ece0",
+      "price": "16750",
+      "stockQty": 24,
+      "sku": "mirror-mahal-lehenga-ivory",
+      "createdAt": "2026-06-14T12:20:11.089Z"
+    },
+    {
+      "id": 137,
+      "productId": 42,
+      "color": "Firozi",
+      "colorHex": "#1c8c8c",
+      "price": "16750",
+      "stockQty": 18,
+      "sku": "mirror-mahal-lehenga-firozi",
+      "createdAt": "2026-06-14T12:20:12.287Z"
+    },
+    {
+      "id": 138,
+      "productId": 43,
+      "color": "Gulabi",
+      "colorHex": "#e58aa8",
+      "price": "24500",
+      "stockQty": 25,
+      "sku": "amrai-gota-lehenga-gulabi",
+      "createdAt": "2026-06-14T12:20:19.537Z"
+    },
+    {
+      "id": 139,
+      "productId": 43,
+      "color": "Onyx Black",
+      "colorHex": "#1c1c1c",
+      "price": "24500",
+      "stockQty": 25,
+      "sku": "amrai-gota-lehenga-onyx-black",
+      "createdAt": "2026-06-14T12:20:20.767Z"
+    },
+    {
+      "id": 140,
+      "productId": 43,
+      "color": "Sandstone",
+      "colorHex": "#c9a06a",
+      "price": "24500",
+      "stockQty": 40,
+      "sku": "amrai-gota-lehenga-sandstone",
+      "createdAt": "2026-06-14T12:20:21.923Z"
+    },
+    {
+      "id": 141,
+      "productId": 43,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "24500",
+      "stockQty": 8,
+      "sku": "amrai-gota-lehenga-rani-pink",
+      "createdAt": "2026-06-14T12:20:23.112Z"
+    },
+    {
+      "id": 142,
+      "productId": 44,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "39900",
+      "stockQty": 29,
+      "sku": "sheesh-mahal-lehenga-rani-pink",
+      "createdAt": "2026-06-14T12:20:30.286Z"
+    },
+    {
+      "id": 143,
+      "productId": 44,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "39900",
+      "stockQty": 6,
+      "sku": "sheesh-mahal-lehenga-deep-maroon",
+      "createdAt": "2026-06-14T12:20:31.482Z"
+    },
+    {
+      "id": 144,
+      "productId": 44,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "39900",
+      "stockQty": 34,
+      "sku": "sheesh-mahal-lehenga-emerald",
+      "createdAt": "2026-06-14T12:20:32.628Z"
+    },
+    {
+      "id": 145,
+      "productId": 45,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "12900",
+      "stockQty": 8,
+      "sku": "hawa-mahal-chikan-lehenga-royal-blue",
+      "createdAt": "2026-06-14T12:20:39.718Z"
+    },
+    {
+      "id": 146,
+      "productId": 45,
+      "color": "Mustard Gold",
+      "colorHex": "#c79a3b",
+      "price": "12900",
+      "stockQty": 11,
+      "sku": "hawa-mahal-chikan-lehenga-mustard-gold",
+      "createdAt": "2026-06-14T12:20:41.115Z"
+    },
+    {
+      "id": 147,
+      "productId": 45,
+      "color": "Ivory",
+      "colorHex": "#f3ece0",
+      "price": "12900",
+      "stockQty": 25,
+      "sku": "hawa-mahal-chikan-lehenga-ivory",
+      "createdAt": "2026-06-14T12:20:42.277Z"
+    },
+    {
+      "id": 148,
+      "productId": 45,
+      "color": "Firozi",
+      "colorHex": "#1c8c8c",
+      "price": "12900",
+      "stockQty": 17,
+      "sku": "hawa-mahal-chikan-lehenga-firozi",
+      "createdAt": "2026-06-14T12:20:43.407Z"
+    },
+    {
+      "id": 149,
+      "productId": 46,
+      "color": "Firozi",
+      "colorHex": "#1c8c8c",
+      "price": "54500",
+      "stockQty": 12,
+      "sku": "padmini-zardozi-lehenga-firozi",
+      "createdAt": "2026-06-14T12:20:50.452Z"
+    },
+    {
+      "id": 150,
+      "productId": 46,
+      "color": "Gulabi",
+      "colorHex": "#e58aa8",
+      "price": "54500",
+      "stockQty": 34,
+      "sku": "padmini-zardozi-lehenga-gulabi",
+      "createdAt": "2026-06-14T12:20:51.648Z"
+    },
+    {
+      "id": 151,
+      "productId": 46,
+      "color": "Onyx Black",
+      "colorHex": "#1c1c1c",
+      "price": "54500",
+      "stockQty": 33,
+      "sku": "padmini-zardozi-lehenga-onyx-black",
+      "createdAt": "2026-06-14T12:20:52.788Z"
+    },
+    {
+      "id": 152,
+      "productId": 47,
+      "color": "Sandstone",
+      "colorHex": "#c9a06a",
+      "price": "18900",
+      "stockQty": 27,
+      "sku": "bagheecha-floral-lehenga-sandstone",
+      "createdAt": "2026-06-14T12:21:00.553Z"
+    },
+    {
+      "id": 153,
+      "productId": 47,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "18900",
+      "stockQty": 42,
+      "sku": "bagheecha-floral-lehenga-rani-pink",
+      "createdAt": "2026-06-14T12:21:01.747Z"
+    },
+    {
+      "id": 154,
+      "productId": 47,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "18900",
+      "stockQty": 16,
+      "sku": "bagheecha-floral-lehenga-deep-maroon",
+      "createdAt": "2026-06-14T12:21:02.869Z"
+    },
+    {
+      "id": 155,
+      "productId": 47,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "18900",
+      "stockQty": 15,
+      "sku": "bagheecha-floral-lehenga-emerald",
+      "createdAt": "2026-06-14T12:21:04.438Z"
+    },
+    {
+      "id": 156,
+      "productId": 48,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "7600",
+      "stockQty": 8,
+      "sku": "chanderi-gold-tissue-saree-emerald",
+      "createdAt": "2026-06-14T12:21:12.153Z"
+    },
+    {
+      "id": 157,
+      "productId": 48,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "7600",
+      "stockQty": 37,
+      "sku": "chanderi-gold-tissue-saree-royal-blue",
+      "createdAt": "2026-06-14T12:21:13.322Z"
+    },
+    {
+      "id": 158,
+      "productId": 48,
+      "color": "Mustard Gold",
+      "colorHex": "#c79a3b",
+      "price": "7600",
+      "stockQty": 43,
+      "sku": "chanderi-gold-tissue-saree-mustard-gold",
+      "createdAt": "2026-06-14T12:21:14.469Z"
+    },
+    {
+      "id": 159,
+      "productId": 49,
+      "color": "Ivory",
+      "colorHex": "#f3ece0",
+      "price": "4200",
+      "stockQty": 34,
+      "sku": "kota-doria-block-saree-ivory",
+      "createdAt": "2026-06-14T12:21:21.405Z"
+    },
+    {
+      "id": 160,
+      "productId": 49,
+      "color": "Firozi",
+      "colorHex": "#1c8c8c",
+      "price": "4200",
+      "stockQty": 27,
+      "sku": "kota-doria-block-saree-firozi",
+      "createdAt": "2026-06-14T12:21:22.529Z"
+    },
+    {
+      "id": 161,
+      "productId": 49,
+      "color": "Gulabi",
+      "colorHex": "#e58aa8",
+      "price": "4200",
+      "stockQty": 19,
+      "sku": "kota-doria-block-saree-gulabi",
+      "createdAt": "2026-06-14T12:21:23.662Z"
+    },
+    {
+      "id": 162,
+      "productId": 49,
+      "color": "Onyx Black",
+      "colorHex": "#1c1c1c",
+      "price": "4200",
+      "stockQty": 30,
+      "sku": "kota-doria-block-saree-onyx-black",
+      "createdAt": "2026-06-14T12:21:24.818Z"
+    },
+    {
+      "id": 163,
+      "productId": 50,
+      "color": "Onyx Black",
+      "colorHex": "#1c1c1c",
+      "price": "14500",
+      "stockQty": 40,
+      "sku": "banarasi-rani-silk-saree-onyx-black",
+      "createdAt": "2026-06-14T12:21:32.353Z"
+    },
+    {
+      "id": 164,
+      "productId": 50,
+      "color": "Sandstone",
+      "colorHex": "#c9a06a",
+      "price": "14500",
+      "stockQty": 30,
+      "sku": "banarasi-rani-silk-saree-sandstone",
+      "createdAt": "2026-06-14T12:21:33.483Z"
+    },
+    {
+      "id": 165,
+      "productId": 50,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "14500",
+      "stockQty": 30,
+      "sku": "banarasi-rani-silk-saree-rani-pink",
+      "createdAt": "2026-06-14T12:21:34.627Z"
+    },
+    {
+      "id": 166,
+      "productId": 51,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "5600",
+      "stockQty": 32,
+      "sku": "leheriya-chiffon-saree-deep-maroon",
+      "createdAt": "2026-06-14T12:21:41.660Z"
+    },
+    {
+      "id": 167,
+      "productId": 51,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "5600",
+      "stockQty": 11,
+      "sku": "leheriya-chiffon-saree-emerald",
+      "createdAt": "2026-06-14T12:21:43.163Z"
+    },
+    {
+      "id": 168,
+      "productId": 51,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "5600",
+      "stockQty": 12,
+      "sku": "leheriya-chiffon-saree-royal-blue",
+      "createdAt": "2026-06-14T12:21:44.405Z"
+    },
+    {
+      "id": 169,
+      "productId": 51,
+      "color": "Mustard Gold",
+      "colorHex": "#c79a3b",
+      "price": "5600",
+      "stockQty": 34,
+      "sku": "leheriya-chiffon-saree-mustard-gold",
+      "createdAt": "2026-06-14T12:21:45.553Z"
+    },
+    {
+      "id": 170,
+      "productId": 52,
+      "color": "Mustard Gold",
+      "colorHex": "#c79a3b",
+      "price": "6800",
+      "stockQty": 17,
+      "sku": "bandhej-georgette-saree-mustard-gold",
+      "createdAt": "2026-06-14T12:21:52.762Z"
+    },
+    {
+      "id": 171,
+      "productId": 52,
+      "color": "Ivory",
+      "colorHex": "#f3ece0",
+      "price": "6800",
+      "stockQty": 10,
+      "sku": "bandhej-georgette-saree-ivory",
+      "createdAt": "2026-06-14T12:21:53.950Z"
+    },
+    {
+      "id": 172,
+      "productId": 52,
+      "color": "Firozi",
+      "colorHex": "#1c8c8c",
+      "price": "6800",
+      "stockQty": 33,
+      "sku": "bandhej-georgette-saree-firozi",
+      "createdAt": "2026-06-14T12:21:55.162Z"
+    },
+    {
+      "id": 173,
+      "productId": 53,
+      "color": "Gulabi",
+      "colorHex": "#e58aa8",
+      "price": "8900",
+      "stockQty": 23,
+      "sku": "maheshwari-tissue-saree-gulabi",
+      "createdAt": "2026-06-14T12:22:02.388Z"
+    },
+    {
+      "id": 174,
+      "productId": 53,
+      "color": "Onyx Black",
+      "colorHex": "#1c1c1c",
+      "price": "8900",
+      "stockQty": 35,
+      "sku": "maheshwari-tissue-saree-onyx-black",
+      "createdAt": "2026-06-14T12:22:03.525Z"
+    },
+    {
+      "id": 175,
+      "productId": 53,
+      "color": "Sandstone",
+      "colorHex": "#c9a06a",
+      "price": "8900",
+      "stockQty": 35,
+      "sku": "maheshwari-tissue-saree-sandstone",
+      "createdAt": "2026-06-14T12:22:04.679Z"
+    },
+    {
+      "id": 176,
+      "productId": 53,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "8900",
+      "stockQty": 30,
+      "sku": "maheshwari-tissue-saree-rani-pink",
+      "createdAt": "2026-06-14T12:22:05.838Z"
+    },
+    {
+      "id": 177,
+      "productId": 54,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "9900",
+      "stockQty": 18,
+      "sku": "gota-border-organza-saree-rani-pink",
+      "createdAt": "2026-06-14T12:22:12.787Z"
+    },
+    {
+      "id": 178,
+      "productId": 54,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "9900",
+      "stockQty": 24,
+      "sku": "gota-border-organza-saree-deep-maroon",
+      "createdAt": "2026-06-14T12:22:14.283Z"
+    },
+    {
+      "id": 179,
+      "productId": 54,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "9900",
+      "stockQty": 30,
+      "sku": "gota-border-organza-saree-emerald",
+      "createdAt": "2026-06-14T12:22:15.441Z"
+    },
+    {
+      "id": 180,
+      "productId": 55,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "4990",
+      "stockQty": 43,
+      "sku": "sanganeri-cotton-suit-set-royal-blue",
+      "createdAt": "2026-06-14T12:22:22.398Z"
+    },
+    {
+      "id": 181,
+      "productId": 55,
+      "color": "Mustard Gold",
+      "colorHex": "#c79a3b",
+      "price": "4990",
+      "stockQty": 36,
+      "sku": "sanganeri-cotton-suit-set-mustard-gold",
+      "createdAt": "2026-06-14T12:22:23.577Z"
+    },
+    {
+      "id": 182,
+      "productId": 55,
+      "color": "Ivory",
+      "colorHex": "#f3ece0",
+      "price": "4990",
+      "stockQty": 29,
+      "sku": "sanganeri-cotton-suit-set-ivory",
+      "createdAt": "2026-06-14T12:22:24.798Z"
+    },
+    {
+      "id": 183,
+      "productId": 55,
+      "color": "Firozi",
+      "colorHex": "#1c8c8c",
+      "price": "4990",
+      "stockQty": 43,
+      "sku": "sanganeri-cotton-suit-set-firozi",
+      "createdAt": "2026-06-14T12:22:26.001Z"
+    },
+    {
+      "id": 184,
+      "productId": 56,
+      "color": "Firozi",
+      "colorHex": "#1c8c8c",
+      "price": "8900",
+      "stockQty": 9,
+      "sku": "chikankari-anarkali-suit-firozi",
+      "createdAt": "2026-06-14T12:22:33.386Z"
+    },
+    {
+      "id": 185,
+      "productId": 56,
+      "color": "Gulabi",
+      "colorHex": "#e58aa8",
+      "price": "8900",
+      "stockQty": 25,
+      "sku": "chikankari-anarkali-suit-gulabi",
+      "createdAt": "2026-06-14T12:22:34.598Z"
+    },
+    {
+      "id": 186,
+      "productId": 56,
+      "color": "Onyx Black",
+      "colorHex": "#1c1c1c",
+      "price": "8900",
+      "stockQty": 15,
+      "sku": "chikankari-anarkali-suit-onyx-black",
+      "createdAt": "2026-06-14T12:22:35.803Z"
+    }
+  ],
+  "productImages": [
+    {
+      "id": 193,
+      "productId": 34,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439446/av-creation/products/fngwwdz44hos7pn2cxoc.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:18:50.102Z"
+    },
+    {
+      "id": 194,
+      "productId": 34,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439460/av-creation/products/z3a2ndv65vxx0wxzmgjt.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:18:51.802Z"
+    },
+    {
+      "id": 195,
+      "productId": 34,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439480/av-creation/products/tpl7rhhtmo0gx13acmhc.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:18:53.012Z"
+    },
+    {
+      "id": 196,
+      "productId": 34,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439497/av-creation/products/egrjlober9bzlkikeem5.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:18:54.200Z"
+    },
+    {
+      "id": 197,
+      "productId": 35,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439449/av-creation/products/s3yynnfipc8n70yygggr.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:19:01.348Z"
+    },
+    {
+      "id": 198,
+      "productId": 35,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439463/av-creation/products/nmxuazf6rnevenw074ma.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:19:02.602Z"
+    },
+    {
+      "id": 199,
+      "productId": 35,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439483/av-creation/products/q5mnd6zh4styza3llddg.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:19:03.754Z"
+    },
+    {
+      "id": 200,
+      "productId": 35,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439500/av-creation/products/m7nor3cxbgcu6nvdy6xy.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:19:04.977Z"
+    },
+    {
+      "id": 201,
+      "productId": 36,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439452/av-creation/products/ettszo4l7ulhw9b8aed0.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:19:11.706Z"
+    },
+    {
+      "id": 202,
+      "productId": 36,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439466/av-creation/products/gm3khtcp9zxn61s7pdck.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:19:12.912Z"
+    },
+    {
+      "id": 203,
+      "productId": 36,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439485/av-creation/products/pthpdjknl0cc1pttgteh.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:19:14.150Z"
+    },
+    {
+      "id": 204,
+      "productId": 36,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439504/av-creation/products/p0et1vmemdqyjkfb3q1w.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:19:15.389Z"
+    },
+    {
+      "id": 205,
+      "productId": 37,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439455/av-creation/products/lmmkgbqowhneaidqcfc0.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:19:22.952Z"
+    },
+    {
+      "id": 206,
+      "productId": 37,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439470/av-creation/products/irwhfcksuxffbi4opegl.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:19:24.149Z"
+    },
+    {
+      "id": 207,
+      "productId": 37,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439490/av-creation/products/irzrubrmswslg3rzdrrk.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:19:25.311Z"
+    },
+    {
+      "id": 208,
+      "productId": 37,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439508/av-creation/products/ovwi7xd0awdbctqbtx4t.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:19:26.549Z"
+    },
+    {
+      "id": 209,
+      "productId": 38,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439458/av-creation/products/rw4occvgyn2zr4r9behb.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:19:32.765Z"
+    },
+    {
+      "id": 210,
+      "productId": 38,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439473/av-creation/products/z4ib72h9f1wtdc90cjcm.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:19:33.957Z"
+    },
+    {
+      "id": 211,
+      "productId": 38,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439494/av-creation/products/ivzcsvwcfrc0r6hyrlds.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:19:35.155Z"
+    },
+    {
+      "id": 212,
+      "productId": 38,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439511/av-creation/products/ubfs6ny6vcittyosziiv.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:19:36.315Z"
+    },
+    {
+      "id": 213,
+      "productId": 39,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439460/av-creation/products/z3a2ndv65vxx0wxzmgjt.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:19:43.498Z"
+    },
+    {
+      "id": 214,
+      "productId": 39,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439476/av-creation/products/bajerlmpjtqtq259htts.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:19:44.667Z"
+    },
+    {
+      "id": 215,
+      "productId": 39,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439497/av-creation/products/egrjlober9bzlkikeem5.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:19:45.923Z"
+    },
+    {
+      "id": 216,
+      "productId": 39,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439446/av-creation/products/fngwwdz44hos7pn2cxoc.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:19:47.119Z"
+    },
+    {
+      "id": 217,
+      "productId": 40,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439463/av-creation/products/nmxuazf6rnevenw074ma.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:19:53.092Z"
+    },
+    {
+      "id": 218,
+      "productId": 40,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439480/av-creation/products/tpl7rhhtmo0gx13acmhc.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:19:54.551Z"
+    },
+    {
+      "id": 219,
+      "productId": 40,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439500/av-creation/products/m7nor3cxbgcu6nvdy6xy.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:19:55.697Z"
+    },
+    {
+      "id": 220,
+      "productId": 40,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439449/av-creation/products/s3yynnfipc8n70yygggr.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:19:56.817Z"
+    },
+    {
+      "id": 221,
+      "productId": 41,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439466/av-creation/products/gm3khtcp9zxn61s7pdck.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:20:03.824Z"
+    },
+    {
+      "id": 222,
+      "productId": 41,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439483/av-creation/products/q5mnd6zh4styza3llddg.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:20:04.945Z"
+    },
+    {
+      "id": 223,
+      "productId": 41,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439504/av-creation/products/p0et1vmemdqyjkfb3q1w.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:20:06.171Z"
+    },
+    {
+      "id": 224,
+      "productId": 41,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439452/av-creation/products/ettszo4l7ulhw9b8aed0.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:20:07.347Z"
+    },
+    {
+      "id": 225,
+      "productId": 42,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439470/av-creation/products/irwhfcksuxffbi4opegl.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:20:13.493Z"
+    },
+    {
+      "id": 226,
+      "productId": 42,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439485/av-creation/products/pthpdjknl0cc1pttgteh.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:20:14.712Z"
+    },
+    {
+      "id": 227,
+      "productId": 42,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439508/av-creation/products/ovwi7xd0awdbctqbtx4t.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:20:15.912Z"
+    },
+    {
+      "id": 228,
+      "productId": 42,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439455/av-creation/products/lmmkgbqowhneaidqcfc0.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:20:17.101Z"
+    },
+    {
+      "id": 229,
+      "productId": 43,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439473/av-creation/products/z4ib72h9f1wtdc90cjcm.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:20:24.313Z"
+    },
+    {
+      "id": 230,
+      "productId": 43,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439490/av-creation/products/irzrubrmswslg3rzdrrk.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:20:25.773Z"
+    },
+    {
+      "id": 231,
+      "productId": 43,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439511/av-creation/products/ubfs6ny6vcittyosziiv.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:20:26.887Z"
+    },
+    {
+      "id": 232,
+      "productId": 43,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439458/av-creation/products/rw4occvgyn2zr4r9behb.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:20:28.010Z"
+    },
+    {
+      "id": 233,
+      "productId": 44,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439476/av-creation/products/bajerlmpjtqtq259htts.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:20:33.845Z"
+    },
+    {
+      "id": 234,
+      "productId": 44,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439494/av-creation/products/ivzcsvwcfrc0r6hyrlds.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:20:35.021Z"
+    },
+    {
+      "id": 235,
+      "productId": 44,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439446/av-creation/products/fngwwdz44hos7pn2cxoc.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:20:36.182Z"
+    },
+    {
+      "id": 236,
+      "productId": 44,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439460/av-creation/products/z3a2ndv65vxx0wxzmgjt.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:20:37.351Z"
+    },
+    {
+      "id": 237,
+      "productId": 45,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439480/av-creation/products/tpl7rhhtmo0gx13acmhc.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:20:44.576Z"
+    },
+    {
+      "id": 238,
+      "productId": 45,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439497/av-creation/products/egrjlober9bzlkikeem5.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:20:45.752Z"
+    },
+    {
+      "id": 239,
+      "productId": 45,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439449/av-creation/products/s3yynnfipc8n70yygggr.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:20:46.927Z"
+    },
+    {
+      "id": 240,
+      "productId": 45,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439463/av-creation/products/nmxuazf6rnevenw074ma.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:20:48.052Z"
+    },
+    {
+      "id": 241,
+      "productId": 46,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439483/av-creation/products/q5mnd6zh4styza3llddg.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:20:53.944Z"
+    },
+    {
+      "id": 242,
+      "productId": 46,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439500/av-creation/products/m7nor3cxbgcu6nvdy6xy.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:20:55.190Z"
+    },
+    {
+      "id": 243,
+      "productId": 46,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439452/av-creation/products/ettszo4l7ulhw9b8aed0.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:20:56.682Z"
+    },
+    {
+      "id": 244,
+      "productId": 46,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439466/av-creation/products/gm3khtcp9zxn61s7pdck.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:20:58.255Z"
+    },
+    {
+      "id": 245,
+      "productId": 47,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439485/av-creation/products/pthpdjknl0cc1pttgteh.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:21:05.600Z"
+    },
+    {
+      "id": 246,
+      "productId": 47,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439504/av-creation/products/p0et1vmemdqyjkfb3q1w.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:21:07.164Z"
+    },
+    {
+      "id": 247,
+      "productId": 47,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439455/av-creation/products/lmmkgbqowhneaidqcfc0.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:21:08.357Z"
+    },
+    {
+      "id": 248,
+      "productId": 47,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439470/av-creation/products/irwhfcksuxffbi4opegl.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:21:09.492Z"
+    },
+    {
+      "id": 249,
+      "productId": 48,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439490/av-creation/products/irzrubrmswslg3rzdrrk.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:21:15.616Z"
+    },
+    {
+      "id": 250,
+      "productId": 48,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439508/av-creation/products/ovwi7xd0awdbctqbtx4t.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:21:16.790Z"
+    },
+    {
+      "id": 251,
+      "productId": 48,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439458/av-creation/products/rw4occvgyn2zr4r9behb.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:21:17.919Z"
+    },
+    {
+      "id": 252,
+      "productId": 48,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439473/av-creation/products/z4ib72h9f1wtdc90cjcm.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:21:19.062Z"
+    },
+    {
+      "id": 253,
+      "productId": 49,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439494/av-creation/products/ivzcsvwcfrc0r6hyrlds.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:21:25.988Z"
+    },
+    {
+      "id": 254,
+      "productId": 49,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439511/av-creation/products/ubfs6ny6vcittyosziiv.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:21:27.429Z"
+    },
+    {
+      "id": 255,
+      "productId": 49,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439460/av-creation/products/z3a2ndv65vxx0wxzmgjt.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:21:28.717Z"
+    },
+    {
+      "id": 256,
+      "productId": 49,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439476/av-creation/products/bajerlmpjtqtq259htts.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:21:29.907Z"
+    },
+    {
+      "id": 257,
+      "productId": 50,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439497/av-creation/products/egrjlober9bzlkikeem5.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:21:35.756Z"
+    },
+    {
+      "id": 258,
+      "productId": 50,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439446/av-creation/products/fngwwdz44hos7pn2cxoc.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:21:36.980Z"
+    },
+    {
+      "id": 259,
+      "productId": 50,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439463/av-creation/products/nmxuazf6rnevenw074ma.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:21:38.131Z"
+    },
+    {
+      "id": 260,
+      "productId": 50,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439480/av-creation/products/tpl7rhhtmo0gx13acmhc.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:21:39.379Z"
+    },
+    {
+      "id": 261,
+      "productId": 51,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439500/av-creation/products/m7nor3cxbgcu6nvdy6xy.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:21:46.818Z"
+    },
+    {
+      "id": 262,
+      "productId": 51,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439449/av-creation/products/s3yynnfipc8n70yygggr.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:21:47.987Z"
+    },
+    {
+      "id": 263,
+      "productId": 51,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439466/av-creation/products/gm3khtcp9zxn61s7pdck.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:21:49.157Z"
+    },
+    {
+      "id": 264,
+      "productId": 51,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439483/av-creation/products/q5mnd6zh4styza3llddg.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:21:50.382Z"
+    },
+    {
+      "id": 265,
+      "productId": 52,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439504/av-creation/products/p0et1vmemdqyjkfb3q1w.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:21:56.318Z"
+    },
+    {
+      "id": 266,
+      "productId": 52,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439452/av-creation/products/ettszo4l7ulhw9b8aed0.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:21:57.473Z"
+    },
+    {
+      "id": 267,
+      "productId": 52,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439470/av-creation/products/irwhfcksuxffbi4opegl.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:21:58.882Z"
+    },
+    {
+      "id": 268,
+      "productId": 52,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439485/av-creation/products/pthpdjknl0cc1pttgteh.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:22:00.023Z"
+    },
+    {
+      "id": 269,
+      "productId": 53,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439508/av-creation/products/ovwi7xd0awdbctqbtx4t.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:22:06.963Z"
+    },
+    {
+      "id": 270,
+      "productId": 53,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439455/av-creation/products/lmmkgbqowhneaidqcfc0.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:22:08.163Z"
+    },
+    {
+      "id": 271,
+      "productId": 53,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439473/av-creation/products/z4ib72h9f1wtdc90cjcm.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:22:09.321Z"
+    },
+    {
+      "id": 272,
+      "productId": 53,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439490/av-creation/products/irzrubrmswslg3rzdrrk.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:22:10.453Z"
+    },
+    {
+      "id": 273,
+      "productId": 54,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439511/av-creation/products/ubfs6ny6vcittyosziiv.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:22:16.616Z"
+    },
+    {
+      "id": 274,
+      "productId": 54,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439458/av-creation/products/rw4occvgyn2zr4r9behb.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:22:17.821Z"
+    },
+    {
+      "id": 275,
+      "productId": 54,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439476/av-creation/products/bajerlmpjtqtq259htts.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:22:18.947Z"
+    },
+    {
+      "id": 276,
+      "productId": 54,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439494/av-creation/products/ivzcsvwcfrc0r6hyrlds.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:22:20.107Z"
+    },
+    {
+      "id": 277,
+      "productId": 55,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439446/av-creation/products/fngwwdz44hos7pn2cxoc.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:22:27.237Z"
+    },
+    {
+      "id": 278,
+      "productId": 55,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439460/av-creation/products/z3a2ndv65vxx0wxzmgjt.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:22:28.414Z"
+    },
+    {
+      "id": 279,
+      "productId": 55,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439480/av-creation/products/tpl7rhhtmo0gx13acmhc.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:22:29.846Z"
+    },
+    {
+      "id": 280,
+      "productId": 55,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439497/av-creation/products/egrjlober9bzlkikeem5.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:22:31.032Z"
+    },
+    {
+      "id": 281,
+      "productId": 56,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439449/av-creation/products/s3yynnfipc8n70yygggr.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-14T12:22:36.956Z"
+    },
+    {
+      "id": 282,
+      "productId": 56,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439463/av-creation/products/nmxuazf6rnevenw074ma.jpg",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-14T12:22:38.079Z"
+    },
+    {
+      "id": 283,
+      "productId": 56,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439483/av-creation/products/q5mnd6zh4styza3llddg.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-14T12:22:39.193Z"
+    },
+    {
+      "id": 284,
+      "productId": 56,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781439500/av-creation/products/m7nor3cxbgcu6nvdy6xy.jpg",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-14T12:22:40.338Z"
+    }
+  ],
+  "orders": [],
+  "orderItems": [],
+  "payments": [],
+  "reviews": [],
+  "cartItems": [],
+  "wishlist": []
+}

@@ -1,0 +1,1877 @@
+{
+  "takenAt": "2026-06-14T12:18:31.866Z",
+  "products": [
+    {
+      "id": 23,
+      "categoryId": 16,
+      "name": "Gulabi Bandhani Odhni",
+      "slug": "gulabi-bandhani-odhni",
+      "type": "Bandhej · Pure Georgette",
+      "description": null,
+      "basePrice": "3450",
+      "comparePrice": null,
+      "badge": "New",
+      "rating": 4.9,
+      "reviewCount": 96,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-11T18:24:13.478Z"
+    },
+    {
+      "id": 24,
+      "categoryId": 16,
+      "name": "Leheriya Wave Odhni",
+      "slug": "leheriya-wave-odhni",
+      "type": "Leheriya · Chiffon",
+      "description": null,
+      "basePrice": "2890",
+      "comparePrice": "3600",
+      "badge": null,
+      "rating": 4.8,
+      "reviewCount": 96,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-11T18:24:26.306Z"
+    },
+    {
+      "id": 25,
+      "categoryId": 16,
+      "name": "Gota Patti Rani Odhni",
+      "slug": "gota-patti-rani-odhni",
+      "type": "Gota Patti · Silk Blend",
+      "description": null,
+      "basePrice": "4750",
+      "comparePrice": null,
+      "badge": "Signature",
+      "rating": 4.9,
+      "reviewCount": 96,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-11T18:24:37.413Z"
+    },
+    {
+      "id": 26,
+      "categoryId": 16,
+      "name": "Sanganeri Block Odhni",
+      "slug": "sanganeri-block-odhni",
+      "type": "Hand-Block · Cotton Mul",
+      "description": null,
+      "basePrice": "2150",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.4,
+      "reviewCount": 80,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-11T18:24:48.481Z"
+    },
+    {
+      "id": 27,
+      "categoryId": 17,
+      "name": "Rani Bagh Bridal Lehenga",
+      "slug": "rani-bagh-bridal-lehenga",
+      "type": "Zardozi · Raw Silk",
+      "description": null,
+      "basePrice": "68500",
+      "comparePrice": "82000",
+      "badge": null,
+      "rating": 4.9,
+      "reviewCount": 128,
+      "isBestseller": true,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "pdpOverride": {
+        "desc": "A regal three-piece bridal ensemble — months of hand zardozi and gota-patti laid across raw Banarasi silk, finished with a scalloped net dupatta dyed in the colours of the Pink City.",
+        "name": "Rani Bagh Royal Bridal Lehenga",
+        "craft": "Hand Zardozi & Gota Patti · Raw Silk",
+        "crumb": [
+          "Lehenga",
+          "Bridal Atelier"
+        ],
+        "images": [
+          "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=1100&q=78&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=1100&q=78&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1645862755924-9f4e7f200b83?w=1100&q=78&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=1100&q=78&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1100&q=78&auto=format&fit=crop"
+        ],
+        "navHot": "Lehenga",
+        "rating": 4.9,
+        "eyebrow": "Bridal Atelier · Made to Measure",
+        "accordion": [
+          {
+            "a": "This piece is <b>made to order</b> and ships in 3–4 weeks. Complimentary insured shipping across India; express worldwide delivery calculated at checkout. You will receive a tracking link the moment it leaves our Jaipur atelier.",
+            "q": "Delivery & Shipping"
+          },
+          {
+            "a": "Easy <b>7-day returns</b> on ready sizes. As each bridal piece is custom-stitched to your measures, made-to-measure orders are eligible for <b>one free alteration</b> rather than return. Our stylist will guide you through every step.",
+            "q": "Returns & Exchange"
+          },
+          {
+            "a": "Raw Banarasi silk with real <b>gota-patti</b> and zardozi handwork. <b>Dry-clean only.</b> Store folded in the muslin pouch provided, away from direct sunlight, to keep the metallic work luminous for generations.",
+            "q": "Fabric & Care"
+          }
+        ],
+        "craftBand": {
+          "lead": "Every Rani Bagh lehenga begins as a bare length of raw silk. Our karigars in Jaipur trace, couch and embroider each motif by hand — no two pieces are ever quite alike.",
+          "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1100&q=78&auto=format&fit=crop",
+          "specs": [
+            {
+              "st": "Technique",
+              "sv": "Zardozi & Gota Patti"
+            },
+            {
+              "st": "Base Fabric",
+              "sv": "Raw Banarasi Silk"
+            },
+            {
+              "st": "Crafting Time",
+              "sv": "Approx. 90 days"
+            },
+            {
+              "st": "Includes",
+              "sv": "Lehenga · Blouse · Dupatta"
+            }
+          ],
+          "title": "Woven by hand, *over months*",
+          "eyebrow": "The House Craft"
+        },
+        "galleryFlag": "Bridal · Made to Order",
+        "reviewCount": 128
+      },
+      "createdAt": "2026-06-11T18:24:59.698Z"
+    },
+    {
+      "id": 28,
+      "categoryId": 18,
+      "name": "testing Chanderi Gold Tissue Saree",
+      "slug": "chanderi-gold-tissue-saree",
+      "type": "Zari · Chanderi Silk",
+      "description": null,
+      "basePrice": "7600",
+      "comparePrice": "9200",
+      "badge": null,
+      "rating": 4.8,
+      "reviewCount": 96,
+      "isBestseller": true,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-11T18:25:11.480Z"
+    },
+    {
+      "id": 29,
+      "categoryId": 17,
+      "name": "Mirror Mahal Lehenga",
+      "slug": "mirror-mahal-lehenga",
+      "type": "Sheesha · Georgette",
+      "description": null,
+      "basePrice": "16750",
+      "comparePrice": null,
+      "badge": "Trending",
+      "rating": 4.4,
+      "reviewCount": 88,
+      "isBestseller": true,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-11T18:25:22.644Z"
+    },
+    {
+      "id": 30,
+      "categoryId": 19,
+      "name": "Sanganeri Cotton Suit Set",
+      "slug": "sanganeri-cotton-suit-set",
+      "type": "Hand-Block · Cotton",
+      "description": null,
+      "basePrice": "4990",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.9,
+      "reviewCount": 96,
+      "isBestseller": true,
+      "isActive": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-11T18:25:33.585Z"
+    },
+    {
+      "id": 31,
+      "categoryId": 21,
+      "name": "Polki Jhumka Set",
+      "slug": "jhumka",
+      "type": "Temple · 22k Gold-plate",
+      "description": null,
+      "basePrice": "3200",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.8,
+      "reviewCount": 40,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "One Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-11T18:25:45.108Z"
+    },
+    {
+      "id": 32,
+      "categoryId": 21,
+      "name": "Zari Embroidered Juttis",
+      "slug": "juttis",
+      "type": "Handcrafted · Velvet",
+      "description": null,
+      "basePrice": "2400",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.8,
+      "reviewCount": 40,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "One Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-11T18:25:47.045Z"
+    },
+    {
+      "id": 33,
+      "categoryId": 16,
+      "name": "Silk Potli Clutch",
+      "slug": "potli",
+      "type": "Gota Patti · Raw Silk",
+      "description": null,
+      "basePrice": "1900",
+      "comparePrice": null,
+      "badge": null,
+      "rating": 4.8,
+      "reviewCount": 40,
+      "isBestseller": false,
+      "isActive": true,
+      "sizes": [
+        "One Size"
+      ],
+      "pdpOverride": null,
+      "createdAt": "2026-06-11T18:25:48.744Z"
+    }
+  ],
+  "productVariants": [
+    {
+      "id": 71,
+      "productId": 23,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "3450",
+      "stockQty": 24,
+      "sku": "gulabi-bandhani-odhni-rani-pink",
+      "createdAt": "2026-06-11T18:24:15.135Z"
+    },
+    {
+      "id": 72,
+      "productId": 23,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "3450",
+      "stockQty": 25,
+      "sku": "gulabi-bandhani-odhni-deep-maroon",
+      "createdAt": "2026-06-11T18:24:16.864Z"
+    },
+    {
+      "id": 73,
+      "productId": 23,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "3450",
+      "stockQty": 25,
+      "sku": "gulabi-bandhani-odhni-emerald",
+      "createdAt": "2026-06-11T18:24:18.202Z"
+    },
+    {
+      "id": 74,
+      "productId": 23,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "3450",
+      "stockQty": 25,
+      "sku": "gulabi-bandhani-odhni-royal-blue",
+      "createdAt": "2026-06-11T18:24:19.290Z"
+    },
+    {
+      "id": 75,
+      "productId": 24,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "2890",
+      "stockQty": 20,
+      "sku": "leheriya-wave-odhni-rani-pink",
+      "createdAt": "2026-06-11T18:24:27.385Z"
+    },
+    {
+      "id": 76,
+      "productId": 24,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "2890",
+      "stockQty": 25,
+      "sku": "leheriya-wave-odhni-deep-maroon",
+      "createdAt": "2026-06-11T18:24:28.471Z"
+    },
+    {
+      "id": 77,
+      "productId": 24,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "2890",
+      "stockQty": 25,
+      "sku": "leheriya-wave-odhni-emerald",
+      "createdAt": "2026-06-11T18:24:29.553Z"
+    },
+    {
+      "id": 78,
+      "productId": 24,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "2890",
+      "stockQty": 25,
+      "sku": "leheriya-wave-odhni-royal-blue",
+      "createdAt": "2026-06-11T18:24:30.624Z"
+    },
+    {
+      "id": 79,
+      "productId": 25,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "4750",
+      "stockQty": 21,
+      "sku": "gota-patti-rani-odhni-rani-pink",
+      "createdAt": "2026-06-11T18:24:38.501Z"
+    },
+    {
+      "id": 80,
+      "productId": 25,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "4750",
+      "stockQty": 25,
+      "sku": "gota-patti-rani-odhni-deep-maroon",
+      "createdAt": "2026-06-11T18:24:39.577Z"
+    },
+    {
+      "id": 81,
+      "productId": 25,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "4750",
+      "stockQty": 25,
+      "sku": "gota-patti-rani-odhni-emerald",
+      "createdAt": "2026-06-11T18:24:40.675Z"
+    },
+    {
+      "id": 82,
+      "productId": 25,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "4750",
+      "stockQty": 2,
+      "sku": "gota-patti-rani-odhni-royal-blue",
+      "createdAt": "2026-06-11T18:24:41.822Z"
+    },
+    {
+      "id": 83,
+      "productId": 26,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "2150",
+      "stockQty": 24,
+      "sku": "sanganeri-block-odhni-rani-pink",
+      "createdAt": "2026-06-11T18:24:49.831Z"
+    },
+    {
+      "id": 84,
+      "productId": 26,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "2150",
+      "stockQty": 25,
+      "sku": "sanganeri-block-odhni-deep-maroon",
+      "createdAt": "2026-06-11T18:24:50.912Z"
+    },
+    {
+      "id": 85,
+      "productId": 26,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "2150",
+      "stockQty": 25,
+      "sku": "sanganeri-block-odhni-emerald",
+      "createdAt": "2026-06-11T18:24:51.990Z"
+    },
+    {
+      "id": 86,
+      "productId": 26,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "2150",
+      "stockQty": 25,
+      "sku": "sanganeri-block-odhni-royal-blue",
+      "createdAt": "2026-06-11T18:24:53.072Z"
+    },
+    {
+      "id": 87,
+      "productId": 27,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "68500",
+      "stockQty": 24,
+      "sku": "rani-bagh-bridal-lehenga-rani-pink",
+      "createdAt": "2026-06-11T18:25:01.043Z"
+    },
+    {
+      "id": 88,
+      "productId": 27,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "68500",
+      "stockQty": 25,
+      "sku": "rani-bagh-bridal-lehenga-deep-maroon",
+      "createdAt": "2026-06-11T18:25:02.127Z"
+    },
+    {
+      "id": 89,
+      "productId": 27,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "68500",
+      "stockQty": 25,
+      "sku": "rani-bagh-bridal-lehenga-emerald",
+      "createdAt": "2026-06-11T18:25:03.199Z"
+    },
+    {
+      "id": 90,
+      "productId": 27,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "68500",
+      "stockQty": 25,
+      "sku": "rani-bagh-bridal-lehenga-royal-blue",
+      "createdAt": "2026-06-11T18:25:04.383Z"
+    },
+    {
+      "id": 91,
+      "productId": 28,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "7600",
+      "stockQty": 1,
+      "sku": "chanderi-gold-tissue-saree-rani-pink",
+      "createdAt": "2026-06-11T18:25:12.565Z"
+    },
+    {
+      "id": 92,
+      "productId": 28,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "7600",
+      "stockQty": 25,
+      "sku": "chanderi-gold-tissue-saree-deep-maroon",
+      "createdAt": "2026-06-11T18:25:13.645Z"
+    },
+    {
+      "id": 93,
+      "productId": 28,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "7600",
+      "stockQty": 25,
+      "sku": "chanderi-gold-tissue-saree-emerald",
+      "createdAt": "2026-06-11T18:25:14.722Z"
+    },
+    {
+      "id": 94,
+      "productId": 28,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "7600",
+      "stockQty": 25,
+      "sku": "chanderi-gold-tissue-saree-royal-blue",
+      "createdAt": "2026-06-11T18:25:15.794Z"
+    },
+    {
+      "id": 95,
+      "productId": 29,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "16750",
+      "stockQty": 25,
+      "sku": "mirror-mahal-lehenga-rani-pink",
+      "createdAt": "2026-06-11T18:25:23.808Z"
+    },
+    {
+      "id": 96,
+      "productId": 29,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "16750",
+      "stockQty": 25,
+      "sku": "mirror-mahal-lehenga-deep-maroon",
+      "createdAt": "2026-06-11T18:25:24.894Z"
+    },
+    {
+      "id": 97,
+      "productId": 29,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "16750",
+      "stockQty": 25,
+      "sku": "mirror-mahal-lehenga-emerald",
+      "createdAt": "2026-06-11T18:25:25.960Z"
+    },
+    {
+      "id": 98,
+      "productId": 29,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "16750",
+      "stockQty": 25,
+      "sku": "mirror-mahal-lehenga-royal-blue",
+      "createdAt": "2026-06-11T18:25:27.056Z"
+    },
+    {
+      "id": 99,
+      "productId": 30,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "4990",
+      "stockQty": 24,
+      "sku": "sanganeri-cotton-suit-set-rani-pink",
+      "createdAt": "2026-06-11T18:25:34.672Z"
+    },
+    {
+      "id": 100,
+      "productId": 30,
+      "color": "Deep Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "4990",
+      "stockQty": 25,
+      "sku": "sanganeri-cotton-suit-set-deep-maroon",
+      "createdAt": "2026-06-11T18:25:35.779Z"
+    },
+    {
+      "id": 101,
+      "productId": 30,
+      "color": "Emerald",
+      "colorHex": "#1d5042",
+      "price": "4990",
+      "stockQty": 25,
+      "sku": "sanganeri-cotton-suit-set-emerald",
+      "createdAt": "2026-06-11T18:25:37.360Z"
+    },
+    {
+      "id": 102,
+      "productId": 30,
+      "color": "Royal Blue",
+      "colorHex": "#27406e",
+      "price": "4990",
+      "stockQty": 25,
+      "sku": "sanganeri-cotton-suit-set-royal-blue",
+      "createdAt": "2026-06-11T18:25:38.498Z"
+    },
+    {
+      "id": 103,
+      "productId": 31,
+      "color": "Gold",
+      "colorHex": "#bd8f3c",
+      "price": "3200",
+      "stockQty": 50,
+      "sku": "jhumka-gold",
+      "createdAt": "2026-06-11T18:25:45.108Z"
+    },
+    {
+      "id": 104,
+      "productId": 32,
+      "color": "Maroon",
+      "colorHex": "#6e1f2e",
+      "price": "2400",
+      "stockQty": 50,
+      "sku": "juttis-maroon",
+      "createdAt": "2026-06-11T18:25:47.045Z"
+    },
+    {
+      "id": 105,
+      "productId": 33,
+      "color": "Rani Pink",
+      "colorHex": "#bd3c6e",
+      "price": "1900",
+      "stockQty": 2,
+      "sku": "potli-rani pink",
+      "createdAt": "2026-06-11T18:25:48.744Z"
+    },
+    {
+      "id": 106,
+      "productId": 33,
+      "color": "red",
+      "colorHex": "#ff0544",
+      "price": "1900",
+      "stockQty": 25,
+      "sku": "potli red set",
+      "createdAt": "2026-06-11T19:11:58.930Z"
+    }
+  ],
+  "productImages": [
+    {
+      "id": 99,
+      "productId": 23,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1574847872646-abff244bbd87?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T18:24:20.366Z"
+    },
+    {
+      "id": 100,
+      "productId": 23,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-11T18:24:21.978Z"
+    },
+    {
+      "id": 101,
+      "productId": 23,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-11T18:24:23.055Z"
+    },
+    {
+      "id": 102,
+      "productId": 23,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-11T18:24:24.151Z"
+    },
+    {
+      "id": 103,
+      "productId": 23,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 4,
+      "createdAt": "2026-06-11T18:24:25.238Z"
+    },
+    {
+      "id": 104,
+      "productId": 24,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T18:24:31.688Z"
+    },
+    {
+      "id": 105,
+      "productId": 24,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1693336429270-094637e16d38?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-11T18:24:32.791Z"
+    },
+    {
+      "id": 106,
+      "productId": 24,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-11T18:24:34.151Z"
+    },
+    {
+      "id": 107,
+      "productId": 24,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-11T18:24:35.266Z"
+    },
+    {
+      "id": 108,
+      "productId": 24,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 4,
+      "createdAt": "2026-06-11T18:24:36.331Z"
+    },
+    {
+      "id": 114,
+      "productId": 26,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T18:24:54.151Z"
+    },
+    {
+      "id": 115,
+      "productId": 26,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1597983073493-88cd35cf93b0?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-11T18:24:55.274Z"
+    },
+    {
+      "id": 116,
+      "productId": 26,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-11T18:24:56.364Z"
+    },
+    {
+      "id": 117,
+      "productId": 26,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-11T18:24:57.526Z"
+    },
+    {
+      "id": 118,
+      "productId": 26,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 4,
+      "createdAt": "2026-06-11T18:24:58.609Z"
+    },
+    {
+      "id": 119,
+      "productId": 27,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1645862755924-9f4e7f200b83?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T18:25:05.734Z"
+    },
+    {
+      "id": 120,
+      "productId": 27,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-11T18:25:06.795Z"
+    },
+    {
+      "id": 121,
+      "productId": 27,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-11T18:25:07.883Z"
+    },
+    {
+      "id": 122,
+      "productId": 27,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-11T18:25:08.970Z"
+    },
+    {
+      "id": 123,
+      "productId": 27,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 4,
+      "createdAt": "2026-06-11T18:25:10.398Z"
+    },
+    {
+      "id": 129,
+      "productId": 29,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T18:25:28.135Z"
+    },
+    {
+      "id": 130,
+      "productId": 29,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1645862755924-9f4e7f200b83?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-11T18:25:29.220Z"
+    },
+    {
+      "id": 131,
+      "productId": 29,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-11T18:25:30.312Z"
+    },
+    {
+      "id": 132,
+      "productId": 29,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-11T18:25:31.412Z"
+    },
+    {
+      "id": 133,
+      "productId": 29,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 4,
+      "createdAt": "2026-06-11T18:25:32.497Z"
+    },
+    {
+      "id": 134,
+      "productId": 30,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1574847872646-abff244bbd87?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T18:25:39.572Z"
+    },
+    {
+      "id": 135,
+      "productId": 30,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1611042553365-9b101441c135?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-11T18:25:40.697Z"
+    },
+    {
+      "id": 136,
+      "productId": 30,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-11T18:25:41.764Z"
+    },
+    {
+      "id": 137,
+      "productId": 30,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-11T18:25:42.889Z"
+    },
+    {
+      "id": 138,
+      "productId": 30,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 4,
+      "createdAt": "2026-06-11T18:25:43.987Z"
+    },
+    {
+      "id": 139,
+      "productId": 31,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1597983073493-88cd35cf93b0?w=700&q=78&auto=format&fit=crop",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T18:25:45.108Z"
+    },
+    {
+      "id": 140,
+      "productId": 32,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1611042553365-9b101441c135?w=700&q=78&auto=format&fit=crop",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T18:25:47.045Z"
+    },
+    {
+      "id": 142,
+      "productId": 27,
+      "variantId": 87,
+      "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T18:27:25.126Z"
+    },
+    {
+      "id": 143,
+      "productId": 27,
+      "variantId": 87,
+      "imageUrl": "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-11T18:27:26.749Z"
+    },
+    {
+      "id": 144,
+      "productId": 27,
+      "variantId": 87,
+      "imageUrl": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-11T18:27:27.868Z"
+    },
+    {
+      "id": 145,
+      "productId": 27,
+      "variantId": 88,
+      "imageUrl": "https://images.unsplash.com/photo-1617922001439-4a2e6562f328?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T18:27:28.951Z"
+    },
+    {
+      "id": 146,
+      "productId": 27,
+      "variantId": 88,
+      "imageUrl": "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-11T18:27:30.044Z"
+    },
+    {
+      "id": 147,
+      "productId": 27,
+      "variantId": 88,
+      "imageUrl": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-11T18:27:31.119Z"
+    },
+    {
+      "id": 148,
+      "productId": 27,
+      "variantId": 89,
+      "imageUrl": "https://images.unsplash.com/photo-1583391733981-3cc8e3a8a8c5?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T18:27:32.201Z"
+    },
+    {
+      "id": 149,
+      "productId": 27,
+      "variantId": 89,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-11T18:27:33.315Z"
+    },
+    {
+      "id": 150,
+      "productId": 27,
+      "variantId": 89,
+      "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-11T18:27:34.398Z"
+    },
+    {
+      "id": 151,
+      "productId": 27,
+      "variantId": 90,
+      "imageUrl": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T18:27:35.476Z"
+    },
+    {
+      "id": 152,
+      "productId": 27,
+      "variantId": 90,
+      "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-11T18:27:36.725Z"
+    },
+    {
+      "id": 153,
+      "productId": 27,
+      "variantId": 90,
+      "imageUrl": "https://images.unsplash.com/photo-1551048632-24e444b48a3e?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-11T18:27:37.961Z"
+    },
+    {
+      "id": 180,
+      "productId": 33,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781205075/av-creation/products/atl6vd3dj0wz5ca9npay.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T20:17:43.543Z"
+    },
+    {
+      "id": 181,
+      "productId": 33,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=700&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-11T20:17:43.543Z"
+    },
+    {
+      "id": 182,
+      "productId": 33,
+      "variantId": null,
+      "imageUrl": "https://res.cloudinary.com/dxy5z6k78/image/upload/v1781205112/av-creation/products/eyd2esmgikbewfz0wanw.jpg",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-11T20:17:43.543Z"
+    },
+    {
+      "id": 183,
+      "productId": 28,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1769500804057-ca1391bf4617?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T20:18:13.626Z"
+    },
+    {
+      "id": 184,
+      "productId": 28,
+      "variantId": 92,
+      "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-11T20:18:13.626Z"
+    },
+    {
+      "id": 185,
+      "productId": 28,
+      "variantId": 93,
+      "imageUrl": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-11T20:18:13.626Z"
+    },
+    {
+      "id": 186,
+      "productId": 28,
+      "variantId": 92,
+      "imageUrl": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-11T20:18:13.626Z"
+    },
+    {
+      "id": 187,
+      "productId": 28,
+      "variantId": 94,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 4,
+      "createdAt": "2026-06-11T20:18:13.626Z"
+    },
+    {
+      "id": 188,
+      "productId": 25,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1611042553365-9b101441c135?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-06-11T20:53:57.282Z"
+    },
+    {
+      "id": 189,
+      "productId": 25,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 1,
+      "createdAt": "2026-06-11T20:53:57.282Z"
+    },
+    {
+      "id": 190,
+      "productId": 25,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1612722432474-b971cdcea546?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 2,
+      "createdAt": "2026-06-11T20:53:57.282Z"
+    },
+    {
+      "id": 191,
+      "productId": 25,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 3,
+      "createdAt": "2026-06-11T20:53:57.282Z"
+    },
+    {
+      "id": 192,
+      "productId": 25,
+      "variantId": null,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1100&q=78&auto=format&fit=crop",
+      "isPrimary": false,
+      "sortOrder": 4,
+      "createdAt": "2026-06-11T20:53:57.282Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 3,
+      "userId": 11,
+      "addressId": 3,
+      "totalAmount": "68500",
+      "discount": "0",
+      "finalAmount": "68500",
+      "status": "DELIVERED",
+      "shippingMethod": "standard",
+      "shippingFee": "0",
+      "trackingNumber": null,
+      "notes": null,
+      "placedAt": "2026-06-11T18:25:58.355Z",
+      "updatedAt": "2026-06-11T18:25:58.355Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "addressId": 4,
+      "totalAmount": "14540",
+      "discount": "0",
+      "finalAmount": "14540",
+      "status": "DELIVERED",
+      "shippingMethod": "standard",
+      "shippingFee": "0",
+      "trackingNumber": null,
+      "notes": null,
+      "placedAt": "2026-06-11T20:56:21.322Z",
+      "updatedAt": "2026-06-11T20:57:45.688Z"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "addressId": 5,
+      "totalAmount": "2890",
+      "discount": "0",
+      "finalAmount": "2890",
+      "status": "PLACED",
+      "shippingMethod": "standard",
+      "shippingFee": "0",
+      "trackingNumber": null,
+      "notes": null,
+      "placedAt": "2026-06-11T21:05:41.155Z",
+      "updatedAt": "2026-06-11T21:05:41.155Z"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "addressId": 6,
+      "totalAmount": "76140",
+      "discount": "0",
+      "finalAmount": "76140",
+      "status": "PLACED",
+      "shippingMethod": "standard",
+      "shippingFee": "0",
+      "trackingNumber": null,
+      "notes": null,
+      "placedAt": "2026-06-12T04:12:06.136Z",
+      "updatedAt": "2026-06-12T04:12:06.136Z"
+    },
+    {
+      "id": 7,
+      "userId": 12,
+      "addressId": 7,
+      "totalAmount": "3450",
+      "discount": "0",
+      "finalAmount": "4650",
+      "status": "CANCELLED",
+      "shippingMethod": "priority",
+      "shippingFee": "1200",
+      "trackingNumber": null,
+      "notes": null,
+      "placedAt": "2026-06-12T04:47:51.440Z",
+      "updatedAt": "2026-06-12T04:49:41.394Z"
+    },
+    {
+      "id": 8,
+      "userId": 9,
+      "addressId": 8,
+      "totalAmount": "5780",
+      "discount": "0",
+      "finalAmount": "5780",
+      "status": "PLACED",
+      "shippingMethod": "standard",
+      "shippingFee": "0",
+      "trackingNumber": null,
+      "notes": null,
+      "placedAt": "2026-06-12T06:08:40.691Z",
+      "updatedAt": "2026-06-12T06:08:40.691Z"
+    },
+    {
+      "id": 13,
+      "userId": 1,
+      "addressId": 14,
+      "totalAmount": "2890",
+      "discount": "0",
+      "finalAmount": "2890",
+      "status": "CANCELLED",
+      "shippingMethod": "standard",
+      "shippingFee": "0",
+      "trackingNumber": null,
+      "notes": "Found a better price elsewhere",
+      "placedAt": "2026-06-12T08:21:06.261Z",
+      "updatedAt": "2026-06-12T08:23:31.093Z"
+    },
+    {
+      "id": 14,
+      "userId": 1,
+      "addressId": 15,
+      "totalAmount": "3450",
+      "discount": "0",
+      "finalAmount": "3450",
+      "status": "CANCELLED",
+      "shippingMethod": "standard",
+      "shippingFee": "0",
+      "trackingNumber": null,
+      "notes": "Ordered by mistake",
+      "placedAt": "2026-06-12T08:24:53.022Z",
+      "updatedAt": "2026-06-12T08:26:06.557Z"
+    },
+    {
+      "id": 15,
+      "userId": 16,
+      "addressId": 16,
+      "totalAmount": "4990",
+      "discount": "0",
+      "finalAmount": "4990",
+      "status": "PLACED",
+      "shippingMethod": "standard",
+      "shippingFee": "0",
+      "trackingNumber": null,
+      "notes": null,
+      "placedAt": "2026-06-12T08:49:16.326Z",
+      "updatedAt": "2026-06-12T08:49:16.326Z"
+    },
+    {
+      "id": 16,
+      "userId": 11,
+      "addressId": 17,
+      "totalAmount": "7600",
+      "discount": "0",
+      "finalAmount": "7600",
+      "status": "PLACED",
+      "shippingMethod": "standard",
+      "shippingFee": "0",
+      "trackingNumber": null,
+      "notes": null,
+      "placedAt": "2026-06-13T18:03:27.744Z",
+      "updatedAt": "2026-06-13T18:03:27.744Z"
+    },
+    {
+      "id": 17,
+      "userId": 1,
+      "addressId": 18,
+      "totalAmount": "3450",
+      "discount": "0",
+      "finalAmount": "3450",
+      "status": "DELIVERED",
+      "shippingMethod": "standard",
+      "shippingFee": "0",
+      "trackingNumber": null,
+      "notes": null,
+      "placedAt": "2026-06-14T03:59:40.586Z",
+      "updatedAt": "2026-06-14T05:07:49.498Z"
+    },
+    {
+      "id": 18,
+      "userId": 1,
+      "addressId": 19,
+      "totalAmount": "4750",
+      "discount": "0",
+      "finalAmount": "4750",
+      "status": "DELIVERED",
+      "shippingMethod": "standard",
+      "shippingFee": "0",
+      "trackingNumber": null,
+      "notes": null,
+      "placedAt": "2026-06-14T05:20:33.701Z",
+      "updatedAt": "2026-06-14T05:22:12.374Z"
+    },
+    {
+      "id": 19,
+      "userId": 1,
+      "addressId": 20,
+      "totalAmount": "4750",
+      "discount": "0",
+      "finalAmount": "4750",
+      "status": "PLACED",
+      "shippingMethod": "standard",
+      "shippingFee": "0",
+      "trackingNumber": null,
+      "notes": null,
+      "placedAt": "2026-06-14T05:22:50.978Z",
+      "updatedAt": "2026-06-14T05:22:50.978Z"
+    },
+    {
+      "id": 20,
+      "userId": 1,
+      "addressId": 21,
+      "totalAmount": "68500",
+      "discount": "0",
+      "finalAmount": "68500",
+      "status": "CANCELLED",
+      "shippingMethod": "standard",
+      "shippingFee": "0",
+      "trackingNumber": null,
+      "notes": "Ordered by mistake",
+      "placedAt": "2026-06-14T05:23:45.989Z",
+      "updatedAt": "2026-06-14T05:24:28.587Z"
+    }
+  ],
+  "orderItems": [
+    {
+      "id": 3,
+      "orderId": 3,
+      "variantId": 87,
+      "size": "M",
+      "quantity": 1,
+      "unitPrice": "68500",
+      "totalPrice": "68500"
+    },
+    {
+      "id": 4,
+      "orderId": 4,
+      "variantId": 75,
+      "size": "",
+      "quantity": 1,
+      "unitPrice": "2890",
+      "totalPrice": "2890"
+    },
+    {
+      "id": 5,
+      "orderId": 4,
+      "variantId": 79,
+      "size": "",
+      "quantity": 1,
+      "unitPrice": "4750",
+      "totalPrice": "4750"
+    },
+    {
+      "id": 6,
+      "orderId": 4,
+      "variantId": 83,
+      "size": "",
+      "quantity": 1,
+      "unitPrice": "2150",
+      "totalPrice": "2150"
+    },
+    {
+      "id": 7,
+      "orderId": 4,
+      "variantId": 82,
+      "size": "M",
+      "quantity": 1,
+      "unitPrice": "4750",
+      "totalPrice": "4750"
+    },
+    {
+      "id": 8,
+      "orderId": 5,
+      "variantId": 75,
+      "size": "M",
+      "quantity": 1,
+      "unitPrice": "2890",
+      "totalPrice": "2890"
+    },
+    {
+      "id": 9,
+      "orderId": 6,
+      "variantId": 87,
+      "size": "",
+      "quantity": 1,
+      "unitPrice": "68500",
+      "totalPrice": "68500"
+    },
+    {
+      "id": 10,
+      "orderId": 6,
+      "variantId": 79,
+      "size": "",
+      "quantity": 1,
+      "unitPrice": "4750",
+      "totalPrice": "4750"
+    },
+    {
+      "id": 11,
+      "orderId": 6,
+      "variantId": 75,
+      "size": "Free Size",
+      "quantity": 1,
+      "unitPrice": "2890",
+      "totalPrice": "2890"
+    },
+    {
+      "id": 12,
+      "orderId": 7,
+      "variantId": 71,
+      "size": "Free Size",
+      "quantity": 1,
+      "unitPrice": "3450",
+      "totalPrice": "3450"
+    },
+    {
+      "id": 13,
+      "orderId": 8,
+      "variantId": 75,
+      "size": "M",
+      "quantity": 2,
+      "unitPrice": "2890",
+      "totalPrice": "5780"
+    },
+    {
+      "id": 18,
+      "orderId": 13,
+      "variantId": 75,
+      "size": "Free Size",
+      "quantity": 1,
+      "unitPrice": "2890",
+      "totalPrice": "2890"
+    },
+    {
+      "id": 19,
+      "orderId": 14,
+      "variantId": 71,
+      "size": "Free Size",
+      "quantity": 1,
+      "unitPrice": "3450",
+      "totalPrice": "3450"
+    },
+    {
+      "id": 20,
+      "orderId": 15,
+      "variantId": 99,
+      "size": "M",
+      "quantity": 1,
+      "unitPrice": "4990",
+      "totalPrice": "4990"
+    },
+    {
+      "id": 21,
+      "orderId": 16,
+      "variantId": 91,
+      "size": "M",
+      "quantity": 1,
+      "unitPrice": "7600",
+      "totalPrice": "7600"
+    },
+    {
+      "id": 22,
+      "orderId": 17,
+      "variantId": 71,
+      "size": "",
+      "quantity": 1,
+      "unitPrice": "3450",
+      "totalPrice": "3450"
+    },
+    {
+      "id": 23,
+      "orderId": 18,
+      "variantId": 79,
+      "size": "Free Size",
+      "quantity": 1,
+      "unitPrice": "4750",
+      "totalPrice": "4750"
+    },
+    {
+      "id": 24,
+      "orderId": 19,
+      "variantId": 79,
+      "size": "M",
+      "quantity": 1,
+      "unitPrice": "4750",
+      "totalPrice": "4750"
+    },
+    {
+      "id": 25,
+      "orderId": 20,
+      "variantId": 87,
+      "size": "M",
+      "quantity": 1,
+      "unitPrice": "68500",
+      "totalPrice": "68500"
+    }
+  ],
+  "payments": [
+    {
+      "id": 3,
+      "orderId": 3,
+      "method": "UPI",
+      "status": "SUCCESS",
+      "transactionId": null,
+      "amount": "68500",
+      "gateway": "mock",
+      "paidAt": "2026-06-11T18:25:58.339Z",
+      "createdAt": "2026-06-11T18:25:58.355Z"
+    },
+    {
+      "id": 4,
+      "orderId": 4,
+      "method": "UPI",
+      "status": "SUCCESS",
+      "transactionId": null,
+      "amount": "14540",
+      "gateway": "mock",
+      "paidAt": "2026-06-11T20:56:21.321Z",
+      "createdAt": "2026-06-11T20:56:21.322Z"
+    },
+    {
+      "id": 5,
+      "orderId": 5,
+      "method": "UPI",
+      "status": "SUCCESS",
+      "transactionId": null,
+      "amount": "2890",
+      "gateway": "mock",
+      "paidAt": "2026-06-11T21:05:41.154Z",
+      "createdAt": "2026-06-11T21:05:41.155Z"
+    },
+    {
+      "id": 6,
+      "orderId": 6,
+      "method": "COD",
+      "status": "PENDING",
+      "transactionId": null,
+      "amount": "76140",
+      "gateway": "mock",
+      "paidAt": null,
+      "createdAt": "2026-06-12T04:12:06.136Z"
+    },
+    {
+      "id": 7,
+      "orderId": 7,
+      "method": "UPI",
+      "status": "REFUNDED",
+      "transactionId": null,
+      "amount": "4650",
+      "gateway": "mock",
+      "paidAt": "2026-06-12T04:47:51.439Z",
+      "createdAt": "2026-06-12T04:47:51.440Z"
+    },
+    {
+      "id": 8,
+      "orderId": 8,
+      "method": "COD",
+      "status": "PENDING",
+      "transactionId": null,
+      "amount": "5780",
+      "gateway": "mock",
+      "paidAt": null,
+      "createdAt": "2026-06-12T06:08:40.691Z"
+    },
+    {
+      "id": 13,
+      "orderId": 13,
+      "method": "COD",
+      "status": "PENDING",
+      "transactionId": null,
+      "amount": "2890",
+      "gateway": "mock",
+      "paidAt": null,
+      "createdAt": "2026-06-12T08:21:06.261Z"
+    },
+    {
+      "id": 14,
+      "orderId": 14,
+      "method": "UPI",
+      "status": "REFUNDED",
+      "transactionId": null,
+      "amount": "3450",
+      "gateway": "mock",
+      "paidAt": "2026-06-12T08:24:53.021Z",
+      "createdAt": "2026-06-12T08:24:53.022Z"
+    },
+    {
+      "id": 15,
+      "orderId": 15,
+      "method": "COD",
+      "status": "PENDING",
+      "transactionId": null,
+      "amount": "4990",
+      "gateway": "mock",
+      "paidAt": null,
+      "createdAt": "2026-06-12T08:49:16.326Z"
+    },
+    {
+      "id": 16,
+      "orderId": 16,
+      "method": "UPI",
+      "status": "SUCCESS",
+      "transactionId": null,
+      "amount": "7600",
+      "gateway": "mock",
+      "paidAt": "2026-06-13T18:03:27.742Z",
+      "createdAt": "2026-06-13T18:03:27.744Z"
+    },
+    {
+      "id": 17,
+      "orderId": 17,
+      "method": "COD",
+      "status": "PENDING",
+      "transactionId": null,
+      "amount": "3450",
+      "gateway": "mock",
+      "paidAt": null,
+      "createdAt": "2026-06-14T03:59:40.586Z"
+    },
+    {
+      "id": 18,
+      "orderId": 18,
+      "method": "COD",
+      "status": "PENDING",
+      "transactionId": null,
+      "amount": "4750",
+      "gateway": "mock",
+      "paidAt": null,
+      "createdAt": "2026-06-14T05:20:33.701Z"
+    },
+    {
+      "id": 19,
+      "orderId": 19,
+      "method": "COD",
+      "status": "PENDING",
+      "transactionId": null,
+      "amount": "4750",
+      "gateway": "mock",
+      "paidAt": null,
+      "createdAt": "2026-06-14T05:22:50.978Z"
+    },
+    {
+      "id": 20,
+      "orderId": 20,
+      "method": "UPI",
+      "status": "REFUNDED",
+      "transactionId": null,
+      "amount": "68500",
+      "gateway": "mock",
+      "paidAt": "2026-06-14T05:23:45.988Z",
+      "createdAt": "2026-06-14T05:23:45.989Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 3,
+      "userId": 11,
+      "productId": 27,
+      "orderId": 3,
+      "rating": 5,
+      "comment": "Wore this for my reception — the zardozi caught every light in the room. The fit after made-to-measure was flawless.",
+      "isApproved": true,
+      "createdAt": "2026-06-11T18:26:01.092Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "productId": 24,
+      "orderId": 4,
+      "rating": 4,
+      "comment": "nice",
+      "isApproved": true,
+      "createdAt": "2026-06-11T20:58:50.125Z"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "productId": 25,
+      "orderId": 4,
+      "rating": 5,
+      "comment": "Excellent\n",
+      "isApproved": true,
+      "createdAt": "2026-06-11T20:59:05.335Z"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "productId": 26,
+      "orderId": 4,
+      "rating": 5,
+      "comment": "Excellent\n",
+      "isApproved": true,
+      "createdAt": "2026-06-11T20:59:13.898Z"
+    }
+  ],
+  "cartItems": [
+    {
+      "id": 15,
+      "userId": 17,
+      "variantId": 105,
+      "quantity": 1,
+      "addedAt": "2026-06-13T17:47:44.162Z"
+    },
+    {
+      "id": 20,
+      "userId": 1,
+      "variantId": 91,
+      "quantity": 1,
+      "addedAt": "2026-06-14T11:42:30.599Z"
+    },
+    {
+      "id": 21,
+      "userId": 1,
+      "variantId": 71,
+      "quantity": 1,
+      "addedAt": "2026-06-14T11:52:56.781Z"
+    },
+    {
+      "id": 22,
+      "userId": 1,
+      "variantId": 105,
+      "quantity": 2,
+      "addedAt": "2026-06-14T11:53:19.564Z"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1,
+      "userId": 11,
+      "productId": 24,
+      "createdAt": "2026-06-11T18:59:02.497Z",
+      "updatedAt": "2026-06-11T18:59:02.497Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 23,
+      "createdAt": "2026-06-12T13:39:41.404Z",
+      "updatedAt": "2026-06-12T13:39:41.404Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "productId": 24,
+      "createdAt": "2026-06-14T11:02:09.193Z",
+      "updatedAt": "2026-06-14T11:02:09.193Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "productId": 28,
+      "createdAt": "2026-06-14T11:42:09.846Z",
+      "updatedAt": "2026-06-14T11:42:09.846Z"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "productId": 26,
+      "createdAt": "2026-06-14T11:52:42.927Z",
+      "updatedAt": "2026-06-14T11:52:42.927Z"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "productId": 25,
+      "createdAt": "2026-06-14T11:52:45.055Z",
+      "updatedAt": "2026-06-14T11:52:45.055Z"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "productId": 33,
+      "createdAt": "2026-06-14T11:52:50.221Z",
+      "updatedAt": "2026-06-14T11:52:50.221Z"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "productId": 29,
+      "createdAt": "2026-06-14T12:01:42.240Z",
+      "updatedAt": "2026-06-14T12:01:42.240Z"
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "productId": 30,
+      "createdAt": "2026-06-14T12:01:45.819Z",
+      "updatedAt": "2026-06-14T12:01:45.819Z"
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "productId": 27,
+      "createdAt": "2026-06-14T12:02:43.490Z",
+      "updatedAt": "2026-06-14T12:02:43.490Z"
+    }
+  ]
+}
