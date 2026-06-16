@@ -24,9 +24,10 @@ model ProductVariant {
 
   product   Product        @relation(fields: [productId], references: [id], onDelete: Cascade)
   //reverse relation
-  images    ProductImage[]
-  items     OrderItem[]
-  cartItems CartItem[]
+  images       ProductImage[]
+  items        OrderItem[]
+  requestItems OrderRequestItem[]
+  cartItems    CartItem[]
 
   @@map("product_variants")
 }

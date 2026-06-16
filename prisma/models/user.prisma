@@ -13,8 +13,9 @@ model User {
 
   created_at DateTime @default(now())
 
-  orders  Order[]
-  reviews Review[]
+  orders        Order[]
+  orderRequests OrderRequest[]
+  reviews       Review[]
 
   addresses Address[]
   cartItems CartItem[]

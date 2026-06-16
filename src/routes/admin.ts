@@ -7,6 +7,11 @@ import { requireAdmin } from "../middleware/authMiddleware";
 import { uploadImage, cloudinaryConfigured } from "../lib/cloudinary";
 import { OrderStatus } from "../../generated/prisma/client";
 import { PENDING_STATUSES, startOfTodayIST } from "../lib/orderFilters";
+import {
+  MANUAL_ORDER_KEY,
+  getManualOrderConfig,
+  normalizeManualOrderConfig,
+} from "../lib/manualOrder";
 
 const router = Router();
 
@@ -229,6 +234,34 @@ router.put(
       update: { value: { images } },
     });
     res.json({ images });
+  })
+);
+
+/* ---------- Manual order (offline-first) config ---------- */
+
+/* GET /api/admin/settings/manual-order — current config (defaults filled in). */
+router.get(
+  "/settings/manual-order",
+  asyncHandler(requireAdmin),
+  asyncHandler(async (_req: Request, res: Response) => {
+    res.json(await getManualOrderConfig());
+  })
+);
+
+/* PUT /api/admin/settings/manual-order — edit WhatsApp number, UPI id, hours,
+   and the customer notices. Body is partial; missing keys keep their defaults. */
+router.put(
+  "/settings/manual-order",
+  asyncHandler(requireAdmin),
+  asyncHandler(async (req: Request, res: Response) => {
+    const config = normalizeManualOrderConfig(req.body ?? {});
+    const value = { ...config } as Record<string, string>;
+    await prisma.siteSetting.upsert({
+      where: { key: MANUAL_ORDER_KEY },
+      create: { key: MANUAL_ORDER_KEY, value },
+      update: { value },
+    });
+    res.json(config);
   })
 );
 

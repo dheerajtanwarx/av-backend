@@ -1,8 +1,19 @@
 import { Router, Request, Response } from "express";
 import { prisma } from "../lib/prisma";
 import { asyncHandler } from "../lib/http";
+import { getManualOrderConfig } from "../lib/manualOrder";
 
 const router = Router();
+
+/* GET /api/settings/manual-order — public config for the offline-first request
+   flow: WhatsApp number, UPI id, response window and customer notices. The
+   storefront reads this to render the PDP notice and build wa.me links. */
+router.get(
+  "/manual-order",
+  asyncHandler(async (_req: Request, res: Response) => {
+    res.json(await getManualOrderConfig());
+  })
+);
 
 /* GET /api/settings/hero — public hero background overrides for the storefront
    carousel. Returns { images: (string | null)[] } aligned to slide index; an

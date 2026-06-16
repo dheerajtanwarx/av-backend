@@ -30,7 +30,8 @@ model Address {
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   //reverse relation
-  orders Order[]
+  orders        Order[]
+  orderRequests OrderRequest[]
 
   @@map("addresses")
 }

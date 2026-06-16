@@ -1,0 +1,76 @@
+// Offline-First Manual Order Approval.
+//
+// An OrderRequest is a *request to buy* — NOT an order and NOT a reservation.
+// Submitting one never touches stock; the offline store always has priority.
+// Inventory is only decremented on the PAID -> CONFIRMED transition, which is
+// also when a real fulfilment `Order` is spawned (so invoice / tracking / QR
+// keep working unchanged). Customers pay manually over UPI after admin approval;
+// there is no payment gateway.
+
+enum OrderRequestStatus {
+  PENDING_APPROVAL  // "Pending Admin Approval" — just submitted
+  APPROVED          // "Approved (Waiting for Payment)" — admin verified stock, UPI sent
+  PAYMENT_SUBMITTED // "Payment Submitted" — customer sent UPI ref / proof
+  PAID              // "Paid" — admin verified the payment
+  CONFIRMED         // "Confirmed" — stock deducted + fulfilment Order created
+  REJECTED          // out of stock / declined
+  CANCELLED         // withdrawn by customer or admin
+}
+
+model OrderRequest {
+  id        Int                @id @default(autoincrement())
+  userId    Int
+  addressId Int? // optional at request time; confirmed over WhatsApp
+  status    OrderRequestStatus @default(PENDING_APPROVAL)
+
+  totalAmount Decimal @db.Decimal(10, 2)
+
+  // Manual-payment trail (no gateway).
+  upiIdSnapshot   String? // the UPI id shown to the customer at approval time
+  paymentRef      String? // UPI transaction / reference id the customer submits
+  paymentProofUrl String? // optional screenshot (Cloudinary)
+
+  customerNote    String? @db.Text
+  adminNote       String? @db.Text
+  rejectionReason String? @db.Text
+
+  // The fulfilment Order spawned on confirm (null until CONFIRMED).
+  orderId Int? @unique
+
+  approvedAt         DateTime?
+  paymentSubmittedAt DateTime?
+  paidAt             DateTime?
+  confirmedAt        DateTime?
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  user    User               @relation(fields: [userId], references: [id], onDelete: Restrict)
+  address Address?           @relation(fields: [addressId], references: [id], onDelete: SetNull)
+  order   Order?             @relation(fields: [orderId], references: [id], onDelete: SetNull)
+  items   OrderRequestItem[]
+
+  @@index([userId])
+  @@index([status])
+  @@map("order_requests")
+}
+
+model OrderRequestItem {
+  id        Int     @id @default(autoincrement())
+  requestId Int
+  variantId Int
+  size      String?
+  quantity  Int
+  unitPrice Decimal @db.Decimal(10, 2)
+  totalPrice Decimal @db.Decimal(10, 2)
+
+  // Snapshots so the request reads correctly even if the product is renamed
+  // or a variant is deleted later.
+  nameSnapshot  String
+  colorSnapshot String
+
+  request OrderRequest   @relation(fields: [requestId], references: [id], onDelete: Cascade)
+  variant ProductVariant @relation(fields: [variantId], references: [id], onDelete: Restrict)
+
+  @@index([requestId])
+  @@map("order_request_items")
+}
