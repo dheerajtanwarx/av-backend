@@ -1,0 +1,213 @@
+// ============================================================
+//  Analytics & BI — event pipeline + rollups
+//  ------------------------------------------------------------
+//  Three layers:
+//    1. analytics_events   — the firehose (append-only, write-heavy,
+//                            read only by the rollup jobs). Partitioned
+//                            BY RANGE on a date column at the SQL level
+//                            (see the migration; Prisma can't express it).
+//    2. sessions / visitors — entities derived from the firehose.
+//    3. agg_* tables        — pre-aggregated, one row per day x dims.
+//                             The dashboard reads ONLY these, so report
+//                             latency is independent of firehose size.
+//
+//  Modularity: `props` is JSON, so a new event type needs NO migration —
+//  add a name to src/analytics/events.ts and a rollup mapper. A new
+//  dimension is an additive new agg_* table, never a change to events.
+// ============================================================
+
+/// The firehose. Never queried directly by the dashboard.
+model AnalyticsEvent {
+  id        BigInt   @id @default(autoincrement())
+  eventName String   @db.VarChar(60)
+  visitorId String   @db.Char(36)
+  sessionId String   @db.Char(36)
+  userId    Int? // stitched from anon -> known on login (identify())
+
+  // Attribution — copied onto every event from the session's first hit.
+  source   String? @db.VarChar(60) // instagram, google, qr, whatsapp, direct...
+  medium   String? @db.VarChar(60)
+  campaign String? @db.VarChar(120)
+  content  String? @db.VarChar(120)
+  referrer String? @db.VarChar(255)
+
+  // Page + entity context.
+  path       String? @db.VarChar(255)
+  productId  Int?
+  categoryId Int?
+
+  // Server-enriched (never trusted from the client).
+  device  String? @db.VarChar(20) // desktop | mobile | tablet
+  browser String? @db.VarChar(40)
+  os      String? @db.VarChar(40)
+  country String? @db.VarChar(60)
+  state   String? @db.VarChar(80)
+  city    String? @db.VarChar(80)
+
+  props     Json? // event-specific payload (schema-free => modular)
+  createdAt DateTime @default(now())
+
+  @@index([eventName, createdAt])
+  @@index([sessionId])
+  @@index([visitorId, createdAt])
+  @@index([productId, eventName, createdAt])
+  @@index([createdAt])
+  @@map("analytics_events")
+}
+
+/// One row per session (30-min inactivity window). Closed by the
+/// closeSessions job, which computes duration + finalizes bounce.
+model AnalyticsSession {
+  id          String    @id @db.Char(36)
+  visitorId   String    @db.Char(36)
+  userId      Int?
+  source      String?   @db.VarChar(60)
+  medium      String?   @db.VarChar(60)
+  campaign    String?   @db.VarChar(120)
+  device      String?   @db.VarChar(20)
+  browser     String?   @db.VarChar(40)
+  os          String?   @db.VarChar(40)
+  country     String?   @db.VarChar(60)
+  state       String?   @db.VarChar(80)
+  city        String?   @db.VarChar(80)
+  startedAt   DateTime
+  lastSeenAt  DateTime
+  endedAt     DateTime?
+  pageviews   Int       @default(1)
+  durationSec Int?
+  isBounce    Boolean   @default(true) // flipped false on 2nd pageview / engagement
+  entryPath   String?   @db.VarChar(255)
+  exitPath    String?   @db.VarChar(255)
+  converted   Boolean   @default(false) // placed an order/request this session
+
+  @@index([visitorId])
+  @@index([startedAt])
+  @@index([userId])
+  @@index([endedAt])
+  @@map("analytics_sessions")
+}
+
+/// One row per first-party visitor. Holds first-touch attribution.
+model AnalyticsVisitor {
+  id            String   @id @db.Char(36)
+  userId        Int?     @unique
+  firstSeenAt   DateTime
+  lastSeenAt    DateTime
+  firstSource   String?  @db.VarChar(60)
+  firstMedium   String?  @db.VarChar(60)
+  firstCampaign String?  @db.VarChar(120)
+  sessionCount  Int      @default(1)
+
+  @@index([firstSeenAt])
+  @@map("analytics_visitors")
+}
+
+// ---------- Pre-aggregated rollups (the dashboard read path) ----------
+
+/// Traffic + source + device + geo, one row per day x dims.
+model AggDailyTraffic {
+  day         String  @db.Char(10) // YYYY-MM-DD (local)
+  source      String  @db.VarChar(60)
+  medium      String  @db.VarChar(60)
+  campaign    String  @db.VarChar(120)
+  device      String  @db.VarChar(20)
+  country     String  @db.VarChar(60)
+  visitors    Int     @default(0)
+  newVisitors Int     @default(0)
+  sessions    Int     @default(0)
+  pageviews   Int     @default(0)
+  bounces     Int     @default(0)
+  durationSec Int     @default(0)
+  orders      Int     @default(0)
+  revenue     Decimal @default(0) @db.Decimal(12, 2)
+
+  @@id([day, source, medium, campaign, device, country])
+  @@index([day])
+  @@index([source, day])
+  @@map("agg_daily_traffic")
+}
+
+/// Per-product view -> cart -> purchase, one row per day x product.
+model AggDailyProduct {
+  day           String  @db.Char(10)
+  productId     Int
+  views         Int     @default(0)
+  uniqueViewers Int     @default(0)
+  addToCart     Int     @default(0)
+  removeFromCart Int    @default(0)
+  purchases     Int     @default(0)
+  qtySold       Int     @default(0)
+  revenue       Decimal @default(0) @db.Decimal(12, 2)
+
+  @@id([day, productId])
+  @@index([day])
+  @@index([productId, day])
+  @@map("agg_daily_product")
+}
+
+/// Funnel stages per day x source. Drop-off = stage[n+1]/stage[n].
+/// `revenue` is first-touch attributed (order -> user -> visitor.firstSource)
+/// in the rollup, so it answers "revenue generated by each source".
+model AggDailyFunnel {
+  day             String  @db.Char(10)
+  source          String  @db.VarChar(60)
+  visitors        Int     @default(0)
+  productViews    Int     @default(0)
+  addToCart       Int     @default(0)
+  checkoutStarted Int     @default(0)
+  orders          Int     @default(0)
+  revenue         Decimal @default(0) @db.Decimal(12, 2)
+
+  @@id([day, source])
+  @@index([day])
+  @@map("agg_daily_funnel")
+}
+
+/// Web Vitals / performance, one row per day x metric x rating bucket.
+/// metric: LCP | CLS | INP | FCP | TTFB. rating from the web-vitals lib.
+model AggDailyPerf {
+  day      String @db.Char(10)
+  metric   String @db.VarChar(20)
+  rating   String @db.VarChar(20)
+  samples  Int    @default(0)
+  sumValue Float  @default(0)
+
+  @@id([day, metric, rating])
+  @@index([day])
+  @@map("agg_daily_perf")
+}
+
+/// Search demand. zeroResult drives the "searches with no results" report.
+model AggSearchTerm {
+  day        String @db.Char(10)
+  term       String @db.VarChar(120)
+  searches   Int    @default(0)
+  zeroResult Int    @default(0)
+  clicks     Int    @default(0)
+
+  @@id([day, term])
+  @@index([day])
+  @@map("agg_search_terms")
+}
+
+// ---------- Marketing attribution: short links / QR codes ----------
+
+/// A printable/shareable short link. /go/:code 302-redirects to `target`
+/// with the UTM params baked in, so a scan/click is attributed like any
+/// other source. Counter is incremented on redirect (cheap, denormalized);
+/// precise attribution still comes from the events the landing page fires.
+model ShortLink {
+  id        Int      @id @default(autoincrement())
+  code      String   @unique @db.VarChar(40) // the /go/<code> slug
+  target    String   @db.VarChar(500) // path or URL to redirect to
+  source    String?  @db.VarChar(60) // utm_source baked into the redirect
+  medium    String?  @db.VarChar(60)
+  campaign  String?  @db.VarChar(120)
+  content   String?  @db.VarChar(120)
+  label     String?  @db.VarChar(120) // human label for the admin list
+  clicks    Int      @default(0)
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+
+  @@map("short_links")
+}

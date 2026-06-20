@@ -6,6 +6,7 @@ import { requireAuth, requireAdmin } from "../middleware/authMiddleware";
 import { OrderRequestStatus } from "../../generated/prisma/client";
 import { ACTIONS, emitEvent, emitStockAlerts, notifyTx } from "../lib/notify";
 import { getManualOrderConfig, waLink } from "../lib/manualOrder";
+import { publishCommerceEvent } from "../analytics/ingest";
 
 /* Offline-First Manual Order Approval — request lifecycle.
 
@@ -898,6 +899,20 @@ adminOrderRequestsRouter.patch(
       });
       return;
     }
+
+    // Realized sale → live feed (post-commit, so a rolled-back confirm never
+    // emits). Attribute to the buyer's first-touch source when we know it.
+    const visitor = await prisma.analyticsVisitor
+      .findFirst({ where: { userId: request.userId }, select: { firstSource: true } })
+      .catch(() => null);
+    publishCommerceEvent({
+      name: "order_confirmed",
+      productName: reqNo(request.id),
+      source: visitor?.firstSource ?? "direct",
+      value: toNumber(request.totalAmount),
+      loggedIn: true,
+    });
+
     res.json({ request: serializeRequest(result.row, true) });
   })
 );

@@ -18,7 +18,11 @@ export type RealtimeEventName =
   | "notification:archived_bulk"
   | "notification:unarchived_bulk"
   | "activity:new"
-  | "dashboard:update";
+  | "dashboard:update"
+  // Live analytics: a compact per-visitor event for the activity feed, and a
+  // periodic aggregated metrics snapshot for the live dashboard counters.
+  | "analytics:event"
+  | "analytics:metrics";
 
 export interface RealtimeEvent {
   event: RealtimeEventName;

@@ -4,8 +4,28 @@ import jwt from "jsonwebtoken";
 import { JwtPayload } from "../config/passport";
 import { prisma } from "../lib/prisma";
 import { requireAuth } from "../middleware/authMiddleware";
+import { ACTIONS, Action, logActivity } from "../lib/notify";
 
 const router = Router();
+
+/** Fire-and-forget auth audit row. Never awaited — logging must not slow or
+    break sign-in. Captures IP + user agent from the request. */
+function auditAuth(
+  req: Request,
+  action: Action,
+  userId: number | null,
+  meta?: Record<string, string | number | boolean | null>
+): void {
+  logActivity(prisma, {
+    action,
+    actorType: "CUSTOMER",
+    actorId: userId,
+    entityType: "user",
+    entityId: userId,
+    meta,
+    req,
+  }).catch((err) => console.error("[auth] audit failed", err));
+}
 
 const JWT_SECRET = process.env.JWT_SECRET!;
 const FRONTEND_URL = process.env.FRONTEND_URL ?? "http://localhost:3000";
@@ -78,6 +98,7 @@ router.get(
   (req: Request, res: Response) => {
     const user = req.user as AuthUser;
     issueAuthCookie(res, user);
+    auditAuth(req, ACTIONS.AUTH_LOGIN, user.id, { method: "google" });
     res.redirect(`${FRONTEND_URL}${safeFrontendPath(req.query.state)}`);
   }
 );
@@ -176,7 +197,9 @@ router.patch("/me", requireAuth, async (req: Request, res: Response) => {
   }
 });
 
-router.post("/logout", (_req: Request, res: Response) => {
+router.post("/logout", (req: Request, res: Response) => {
+  // The JWT isn't verified here (logout always succeeds), so actorId is unknown.
+  auditAuth(req, ACTIONS.AUTH_LOGOUT, null, { method: "cookie" });
   res.clearCookie(COOKIE_NAME, {
     httpOnly: COOKIE_OPTIONS.httpOnly,
     secure: COOKIE_OPTIONS.secure,
@@ -256,6 +279,10 @@ router.post("/otp/verify", async (req: Request, res: Response) => {
   try {
     const token = await prisma.otpToken.findUnique({ where: { phone } });
     if (!token || token.otp !== otp) {
+      auditAuth(req, ACTIONS.AUTH_LOGIN_FAILED, token?.userId ?? null, {
+        method: "otp",
+        reason: "bad_code",
+      });
       res.status(400).json({ error: "Incorrect code. Please check and try again." });
       return;
     }
@@ -283,6 +310,9 @@ router.post("/otp/verify", async (req: Request, res: Response) => {
     // Single-use: clear the code once consumed.
     await prisma.otpToken.delete({ where: { phone } }).catch(() => {});
 
+    auditAuth(req, mode === "signup" ? ACTIONS.AUTH_SIGNUP : ACTIONS.AUTH_LOGIN, user.id, {
+      method: "otp",
+    });
     const payload = issueAuthCookie(res, user);
     res.json({ user: payload });
   } catch (err) {

@@ -27,10 +27,19 @@ import settingsRouter from "./routes/settings";
 import notificationsRouter from "./routes/notifications";
 import activityRouter from "./routes/activity";
 import realtimeRouter from "./routes/realtime";
+import trackRouter from "./routes/track";
+import goRouter from "./routes/go";
+import analyticsRouter from "./routes/analytics";
+import { startAnalyticsJobs } from "./analytics/scheduler";
+import { startLiveMetrics } from "./analytics/live";
 
 const app = express();
 const PORT = Number(process.env.PORT ?? 4000);
 const FRONTEND_URL = process.env.FRONTEND_URL ?? "http://localhost:3000";
+
+// Behind Render/Vercel proxies; honour X-Forwarded-For so req.ip and the
+// analytics geo-IP lookup see the real client address, not the proxy's.
+app.set("trust proxy", true);
 
 app.use(
   cors({
@@ -65,9 +74,15 @@ app.use("/api/admin/reports", reportsRouter);
 app.use("/api/admin/notifications", notificationsRouter);
 app.use("/api/admin/activity", activityRouter);
 app.use("/api/admin/realtime", realtimeRouter);
+app.use("/api/admin/analytics", analyticsRouter);
 app.use("/api/admin/order-requests", adminOrderRequestsRouter);
 app.use("/api/admin", adminRouter);
 app.use("/api/settings", settingsRouter);
+
+// Public analytics event collector (no auth — anonymous visitors).
+app.use("/api/track", trackRouter);
+// Marketing short links / QR targets (root-mounted for short printed URLs).
+app.use("/go", goRouter);
 
 app.get("/health", (_req, res) => {
   res.json({ status: "ok", timestamp: new Date().toISOString() });
@@ -75,6 +90,9 @@ app.get("/health", (_req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Express server running on http://localhost:${PORT}`);
+  // Kick off the rollup / session-close cron jobs + the live metrics tick.
+  startAnalyticsJobs();
+  startLiveMetrics();
 });
 
 export default app;
