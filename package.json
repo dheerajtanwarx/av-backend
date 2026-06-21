@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "postinstall": "prisma generate",
-    "build": "prisma generate && tsc",
-    "start": "node ./dist/server.js",
+    "build": "prisma generate && tsc && cp generated/prisma/*.node dist/generated/prisma/",
+    "start": "node ./dist/src/server.js",
     "seed": "tsx prisma/seed.ts",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src/**/*.ts"

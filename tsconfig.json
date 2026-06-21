@@ -12,10 +12,11 @@
     "strict": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
     "paths": {
       "@/*": ["./*"]
     }
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", "generated"]
+  "include": ["src/**/*.ts", "generated/**/*.ts"],
+  "exclude": ["node_modules"]
 }
