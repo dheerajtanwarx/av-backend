@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "postinstall": "prisma generate",
-    "build": "prisma generate && tsc --noEmit",
+    "build": "prisma generate",
     "start": "tsx src/server.ts",
     "seed": "tsx prisma/seed.ts",
+    "typecheck": "tsc --noEmit",
     "lint": "eslint src/**/*.ts"
   },
   "dependencies": {
@@ -27,7 +28,9 @@
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
     "pdfkit": "^0.19.1",
+    "prisma": "^6.19.3",
     "qrcode": "^1.5.4",
+    "tsx": "^4.19.2",
     "ua-parser-js": "^2.0.10"
   },
   "devDependencies": {
@@ -44,8 +47,6 @@
     "@types/passport-google-oauth20": "^2.0.16",
     "@types/pdfkit": "^0.17.6",
     "@types/qrcode": "^1.5.6",
-    "prisma": "^6.19.3",
-    "tsx": "^4.19.2",
     "typescript": "^5"
   }
 }
