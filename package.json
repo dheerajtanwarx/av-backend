@@ -31,8 +31,7 @@
     "prisma": "^6.19.3",
     "qrcode": "^1.5.4",
     "tsx": "^4.19.2",
-    "ua-parser-js": "^2.0.10",
-    "@types/node": "^20.19.43"
+    "ua-parser-js": "^2.0.10"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.8",
