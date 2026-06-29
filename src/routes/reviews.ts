@@ -64,6 +64,45 @@ router.post(
   })
 );
 
+/* GET /api/reviews/featured?limit=12  (public)
+   A cross-product feed of real, approved reviews for the homepage
+   testimonials carousel. Only positive (4–5★) approved reviews that
+   actually carry a written comment are returned — the same rows already
+   shown on product pages, just curated for the showcase. We expose only
+   the reviewer's FIRST name (never email) for privacy. Newest first. */
+router.get(
+  "/featured",
+  asyncHandler(async (req: Request, res: Response) => {
+    const limit = Math.min(Math.max(Number(req.query.limit) || 12, 1), 24);
+
+    const rows = await prisma.review.findMany({
+      where: { isApproved: true, rating: { gte: 4 }, comment: { not: null } },
+      orderBy: { createdAt: "desc" },
+      take: limit,
+      include: {
+        user: { select: { name: true } },
+        product: { select: { name: true, slug: true } },
+      },
+    });
+
+    const reviews = rows
+      .filter((r) => (r.comment ?? "").trim().length > 0)
+      .map((r) => {
+        const firstName = (r.user.name ?? "").trim().split(/\s+/)[0] || "Verified buyer";
+        return {
+          id: r.id,
+          rating: r.rating,
+          comment: (r.comment ?? "").trim(),
+          author: firstName,
+          createdAt: r.createdAt.toISOString(),
+          product: { name: r.product.name, slug: r.product.slug },
+        };
+      });
+
+    res.json({ reviews });
+  })
+);
+
 /* ───────────────────────── Admin moderation ─────────────────────────
    All routes below require an ADMIN user. Reviews are post-moderated:
    they go live on creation, and an admin can hide (reject) or restore
