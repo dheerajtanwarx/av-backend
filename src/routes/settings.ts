@@ -2,6 +2,8 @@ import { Router, Request, Response } from "express";
 import { prisma } from "../lib/prisma";
 import { asyncHandler } from "../lib/http";
 import { getManualOrderConfig } from "../lib/manualOrder";
+import { getSocialSettings } from "../lib/social";
+import { getPromoBanner, isPromoSlot } from "../lib/promo";
 
 const router = Router();
 
@@ -27,6 +29,30 @@ router.get(
       ? value!.images.map((u: unknown) => (typeof u === "string" && u.trim() ? u.trim() : null))
       : [];
     res.json({ images });
+  })
+);
+
+/* GET /api/settings/social — public #DrapedInAV feeds (reels + posts) for the
+   homepage social section. Returns { reels: [], posts: [] }; empty arrays mean
+   "use the built-in defaults". */
+router.get(
+  "/social",
+  asyncHandler(async (_req: Request, res: Response) => {
+    res.json(await getSocialSettings());
+  })
+);
+
+/* GET /api/settings/promo/:slot — public promo banner for a slot
+   ("signature" | "bridal"). */
+router.get(
+  "/promo/:slot",
+  asyncHandler(async (req: Request, res: Response) => {
+    const { slot } = req.params;
+    if (!isPromoSlot(slot)) {
+      res.status(404).json({ error: "Unknown promo slot." });
+      return;
+    }
+    res.json(await getPromoBanner(slot));
   })
 );
 

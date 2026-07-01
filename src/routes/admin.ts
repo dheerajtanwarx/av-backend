@@ -4,7 +4,7 @@ import { prisma } from "../lib/prisma";
 import { asyncHandler } from "../lib/http";
 import { toNumber } from "../lib/money";
 import { requireAdmin } from "../middleware/authMiddleware";
-import { uploadImage, cloudinaryConfigured } from "../lib/cloudinary";
+import { uploadImage, uploadVideo, cloudinaryConfigured } from "../lib/cloudinary";
 import { OrderStatus } from "../../generated/prisma/client";
 import { PENDING_STATUSES, startOfTodayIST } from "../lib/orderFilters";
 import {
@@ -12,6 +12,17 @@ import {
   getManualOrderConfig,
   normalizeManualOrderConfig,
 } from "../lib/manualOrder";
+import {
+  SOCIAL_KEY,
+  getSocialSettings,
+  normalizeSocialSettings,
+} from "../lib/social";
+import {
+  getPromoBanner,
+  setPromoBanner,
+  normalizePromo,
+  isPromoSlot,
+} from "../lib/promo";
 
 const router = Router();
 
@@ -31,6 +42,33 @@ function singleImage(req: Request, res: Response, next: NextFunction): void {
     if (err instanceof multer.MulterError) {
       const msg =
         err.code === "LIMIT_FILE_SIZE" ? "Image must be under 5 MB." : "Upload failed.";
+      res.status(400).json({ error: msg });
+      return;
+    }
+    if (err) {
+      res.status(400).json({ error: "Upload failed." });
+      return;
+    }
+    next();
+  });
+}
+
+/* Separate in-memory uploader for short social reels. Video files are heavier
+   than product photos, so this allows a larger cap and only video mimetypes. */
+const videoUpload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: 60 * 1024 * 1024 },
+  fileFilter: (_req, file, cb) => {
+    cb(null, file.mimetype.startsWith("video/"));
+  },
+});
+
+/** Run multer for a single `video` field, turning its errors into JSON 400s. */
+function singleVideo(req: Request, res: Response, next: NextFunction): void {
+  videoUpload.single("video")(req, res, (err: unknown) => {
+    if (err instanceof multer.MulterError) {
+      const msg =
+        err.code === "LIMIT_FILE_SIZE" ? "Video must be under 60 MB." : "Upload failed.";
       res.status(400).json({ error: msg });
       return;
     }
@@ -184,6 +222,26 @@ router.post(
   })
 );
 
+/* POST /api/admin/upload-video — multipart form field `video`. Returns the
+   hosted URL. Backs the social-reel uploader. */
+router.post(
+  "/upload-video",
+  asyncHandler(requireAdmin),
+  singleVideo,
+  asyncHandler(async (req: Request, res: Response) => {
+    if (!cloudinaryConfigured) {
+      res.status(503).json({ error: "Video uploads are not configured on the server." });
+      return;
+    }
+    if (!req.file) {
+      res.status(400).json({ error: "No video provided." });
+      return;
+    }
+    const result = await uploadVideo(req.file.buffer);
+    res.json({ url: result.url, publicId: result.publicId });
+  })
+);
+
 /* ---------- Categories (flat list for product forms) ---------- */
 
 /* GET /api/admin/categories — every category, flat, for the product dropdown. */
@@ -234,6 +292,66 @@ router.put(
       update: { value: { images } },
     });
     res.json({ images });
+  })
+);
+
+/* ---------- Social feeds (#DrapedInAV reels + posts) ---------- */
+
+/* GET /api/admin/social — current social feeds (normalised). */
+router.get(
+  "/social",
+  asyncHandler(requireAdmin),
+  asyncHandler(async (_req: Request, res: Response) => {
+    res.json(await getSocialSettings());
+  })
+);
+
+/* PUT /api/admin/social — replace the homepage reels + posts.
+   Body: { reels: SocialReel[], posts: SocialPost[] }. Rows are validated and
+   half-filled entries (a reel with no poster, a post with no image) are dropped. */
+router.put(
+  "/social",
+  asyncHandler(requireAdmin),
+  asyncHandler(async (req: Request, res: Response) => {
+    const settings = normalizeSocialSettings(req.body ?? {});
+    await prisma.siteSetting.upsert({
+      where: { key: SOCIAL_KEY },
+      create: { key: SOCIAL_KEY, value: settings },
+      update: { value: settings },
+    });
+    res.json(settings);
+  })
+);
+
+/* ---------- Promo banners (per slot: "signature" | "bridal") ---------- */
+
+/* GET /api/admin/promo/:slot — current promo banner for a slot. */
+router.get(
+  "/promo/:slot",
+  asyncHandler(requireAdmin),
+  asyncHandler(async (req: Request, res: Response) => {
+    const { slot } = req.params;
+    if (!isPromoSlot(slot)) {
+      res.status(404).json({ error: "Unknown promo slot." });
+      return;
+    }
+    res.json(await getPromoBanner(slot));
+  })
+);
+
+/* PUT /api/admin/promo/:slot — set a homepage promo banner (image + link + alt). */
+router.put(
+  "/promo/:slot",
+  asyncHandler(requireAdmin),
+  asyncHandler(async (req: Request, res: Response) => {
+    const { slot } = req.params;
+    if (!isPromoSlot(slot)) {
+      res.status(404).json({ error: "Unknown promo slot." });
+      return;
+    }
+    const promo = normalizePromo(req.body ?? {});
+    await setPromoBanner(slot, promo);
+    res.json(promo);
   })
 );
 

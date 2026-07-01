@@ -39,4 +39,25 @@ export function uploadImage(
   });
 }
 
+/** Upload an in-memory video buffer (e.g. a social reel) and resolve to its
+    secure URL + publicId. Same swap-out contract as `uploadImage`. */
+export function uploadVideo(
+  buffer: Buffer,
+  folder = "av-creation/social"
+): Promise<UploadResult> {
+  return new Promise((resolve, reject) => {
+    const stream = cloudinary.uploader.upload_stream(
+      { folder, resource_type: "video" },
+      (err, result) => {
+        if (err || !result) {
+          reject(err ?? new Error("Upload failed"));
+          return;
+        }
+        resolve({ url: result.secure_url, publicId: result.public_id });
+      }
+    );
+    stream.end(buffer);
+  });
+}
+
 export { cloudinary };
